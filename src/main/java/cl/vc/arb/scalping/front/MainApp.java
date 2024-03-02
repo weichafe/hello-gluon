@@ -6,6 +6,7 @@ import com.gluonhq.charm.glisten.application.AppManager;
 import com.gluonhq.charm.glisten.control.AppBar;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
@@ -13,6 +14,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 import java.util.ResourceBundle;
 
@@ -33,8 +35,33 @@ public class MainApp extends Application {
             View view = null;
             try {
 
-                Parent root = FXMLLoader.load(MainApp.class.getResource("/view/Splash.fxml"));
-                view = new View() {
+
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"));
+                Parent  root = loader.load();
+                loader.getController();
+                Scene scene = new Scene(root);
+                Stage ventanaApp = new Stage();
+                ventanaApp.setResizable(true);
+                ventanaApp.setMaximized(false);
+                ventanaApp.setScene(scene);
+
+                //ventanaApp.getIcons().add(new Image(properties.getProperty("app.icon.ruta")));
+
+                ventanaApp.setOnCloseRequest(e -> {
+                    //Repository.getNettyProtobufClient().stopClient();
+                    javafx.application.Platform.exit();
+                    System.exit(0);
+                });
+
+                ventanaApp.setOnShowing(new EventHandler<WindowEvent>() {
+                    @Override
+                    public void handle(WindowEvent event) {
+                        MainApp.primaryStage.hide();
+                    }
+                });
+
+
+                view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
                         appBar.setTitleText("Gluon Mobile");

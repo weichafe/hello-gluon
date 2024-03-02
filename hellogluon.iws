@@ -5,51 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c440c5a-d63e-4872-a744-351d4b4a1760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellogluon.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/PrincipalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gluonhq/hello/HelloGluonApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/css/SimpleTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/enviroment/STRATEGIES_EXECUTIONS_ALGO.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/enviroment/STRATEGIES_EXECUTIONS_ALGO.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/enviroment/STRATEGIES_EXECUTIONS_ALGO_TEST.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/enviroment/STRATEGIES_EXECUTIONS_ALGO_TEST.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/images/scalping.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/images/splash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/basket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/conexions.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/conexions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/desarrollo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/docknode.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/docknode.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/excel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/excel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/icono.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/mail_7500726.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/minus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/news.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/news.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/notification.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/password.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/prod.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/prod.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/sobre5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/sound.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/sound.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/sound/new.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/sound/red-alert.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/sound/rejected.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/sound/trade.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/substrate/ios/Partial-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/substrate/ios/Partial-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/substrate/macos/Partial-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/substrate/macos/Partial-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Footer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/Notifications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Notifications.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/PositionsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PositionsView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/StrategiesData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.vc.arb.scalping.front/view/Strategy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/gluonhq/hello/openduke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/gluonhq/hello/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -505,18 +463,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java</url>
-          <line>46</line>
+          <line>73</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java</url>
-          <line>85</line>
+          <line>64</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

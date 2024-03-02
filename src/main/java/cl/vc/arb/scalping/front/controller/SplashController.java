@@ -51,30 +51,9 @@ public class SplashController implements Initializable {
             try {
                 properties = new Properties();
                 //properties.load(getClass().getClassLoader().getResourceAsStream("enviroment/STRATEGIES_EXECUTIONS_ALGO.properties"));
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"), resources);
-                root = loader.load();
-                loader.getController();
-                Scene scene = new Scene(root);
-                ventanaApp.setResizable(true);
-                ventanaApp.setMaximized(false);
-                ventanaApp.setScene(scene);
 
-                //ventanaApp.getIcons().add(new Image(properties.getProperty("app.icon.ruta")));
 
-                ventanaApp.setOnCloseRequest(e -> {
-                    Repository.getNettyProtobufClient().stopClient();
-                    Platform.exit();
-                    System.exit(0);
-                });
-
-                ventanaApp.setOnShowing(new EventHandler<WindowEvent>() {
-                    @Override
-                    public void handle(WindowEvent event) {
-                        MainApp.primaryStage.hide();
-                    }
-                });
-
-                ventanaApp.show();
+                //ventanaApp.show();
 
 
 
