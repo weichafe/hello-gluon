@@ -5,52 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c440c5a-d63e-4872-a744-351d4b4a1760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/client/ClientActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/FooterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/PrincipalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/StrategiesDataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/StrategyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellStartBuy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellStartSell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellSubscribe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/notifications/NotificationsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/util/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/enviroment/STRATEGIES_EXECUTIONS_ALGO.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/enviroment/STRATEGIES_EXECUTIONS_ALGO_TEST.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/conexions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/docknode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/excel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/prod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sound.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Footer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Notifications.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/PositionsView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellogluon.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
