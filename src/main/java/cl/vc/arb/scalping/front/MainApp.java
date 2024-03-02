@@ -33,7 +33,7 @@ public class MainApp extends Application {
             View view = null;
             try {
 
-                Parent root = FXMLLoader.load(MainApp.class.getResource("Splash.fxml"), ResourceBundle.getBundle("cl.vc.arb.scalping.front.view.hello.Splash"));
+                Parent root = FXMLLoader.load(MainApp.class.getResource("Splash.fxml"), ResourceBundle.getBundle("cl.vc.arb.scalping.front.view.Splash"));
                 view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
