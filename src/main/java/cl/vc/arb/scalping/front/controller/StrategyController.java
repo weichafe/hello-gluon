@@ -17,9 +17,6 @@ import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import lombok.Data;
-import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
 
 import java.net.URL;
 import java.text.DecimalFormat;
@@ -30,8 +27,8 @@ import java.util.ResourceBundle;
 
 public class StrategyController implements Initializable {
 
-    @Setter
-    private Stage stage;
+
+    public Stage stage;
 
     @FXML private TextField prefix;
     @FXML private TextField symbol;
@@ -53,10 +50,10 @@ public class StrategyController implements Initializable {
     @FXML private ComboBox<RoutingMessage.Currency> currency;
     @FXML private ComboBox<RoutingMessage.SecurityType> securityType;
 
-    @FXML private Button btnAddStrategy;
-    @FXML private Button btnUpdateStrategy;
-    @FXML private Button btnDeleteStrategy;
-    @FXML private Button btnCloneStrategy;
+    @FXML public Button btnAddStrategy;
+    @FXML public Button btnUpdateStrategy;
+    @FXML public Button btnDeleteStrategy;
+    @FXML public Button btnCloneStrategy;
 
     private String strategyId;
     private DecimalFormat df;

@@ -10,10 +10,8 @@ import cl.vc.module.protocolbuff.notification.NotificationMessage;
 import cl.vc.module.protocolbuff.tcp.NettyProtobufClient;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -21,12 +19,11 @@ import java.util.ResourceBundle;
 
 public class PrincipalController implements Initializable {
 
-    @Getter
     public static ActorRef client;
     @FXML
-    private StrategiesDataController strategiesDataController;
+    public StrategiesDataController strategiesDataController;
     @FXML
-    private FooterController footerController;
+    public FooterController footerController;
     @Getter
     @Setter
     private NotificationsController notificationsController;
@@ -41,9 +38,9 @@ public class PrincipalController implements Initializable {
         try {
             Repository.setPrincipalController(this);
             Notifier.startNotification();
-            client = SplashController.getActorSystem().actorOf(new RoundRobinPool(1).props(ClientActor.props()), "ClientManager");
-            Repository.setNettyProtobufClient(new NettyProtobufClient(SplashController.getProperties().getProperty("controller"),
-                    client, "log/", "front-blotter", NotificationMessage.Component.valueOf(SplashController.getProperties().getProperty("name"))));
+            client = SplashController.actorSystem.actorOf(new RoundRobinPool(1).props(ClientActor.props()), "ClientManager");
+            Repository.setNettyProtobufClient(new NettyProtobufClient(SplashController.properties.getProperty("controller"),
+                    client, "log/", "front-blotter", NotificationMessage.Component.valueOf(SplashController.properties.getProperty("name"))));
             new Thread(Repository.getNettyProtobufClient()).start();
 
         } catch (Exception e) {

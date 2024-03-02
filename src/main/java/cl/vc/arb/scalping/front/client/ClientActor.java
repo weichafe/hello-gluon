@@ -13,7 +13,6 @@ import cl.vc.module.protocolbuff.routing.RoutingMessage;
 import cl.vc.module.protocolbuff.session.SessionsMessage;
 import cl.vc.module.protocolbuff.tcp.TransportingObjects;
 import javafx.application.Platform;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.HashMap;
 import java.util.concurrent.Executors;
@@ -70,9 +69,9 @@ public class ClientActor extends AbstractActor {
 
         if (message.getStatusStrategy().equals(GeneralStrategy.StatusStrategy.ADD_STRATEGY) ||
                 message.getStatusStrategy().equals(GeneralStrategy.StatusStrategy.UPDATE_STRATEGY)) {
-            Repository.getPrincipalController().getStrategiesDataController().loadStrategy(message.toBuilder());
+            Repository.getPrincipalController().strategiesDataController.loadStrategy(message.toBuilder());
         } else if (message.getStatusStrategy().equals(GeneralStrategy.StatusStrategy.REMOVE_STRATEGY)) {
-            Repository.getPrincipalController().getStrategiesDataController().removeStrategy(message.getStrategyId());
+            Repository.getPrincipalController().strategiesDataController.removeStrategy(message.getStrategyId());
         }
 
     }
@@ -135,8 +134,8 @@ public class ClientActor extends AbstractActor {
             }
 
             Platform.runLater(() -> {
-                Repository.getPrincipalController().getStrategiesDataController().getStrategiesObsListButton().clear();
-                Repository.getPrincipalController().getStrategiesDataController().getMapStrategy().clear();
+                Repository.getPrincipalController().strategiesDataController.strategiesObsListButton.clear();
+                Repository.getPrincipalController().strategiesDataController.mapStrategy.clear();
             });
 
 

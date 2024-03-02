@@ -7,7 +7,6 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
-import lombok.extern.slf4j.Slf4j;
 
 
 public class ButtonCellSubscribe extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {

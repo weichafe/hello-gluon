@@ -7,7 +7,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
 import javafx.scene.input.MouseEvent;
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -28,8 +27,8 @@ public class FooterController implements Initializable {
             @Override
             public void handle(MouseEvent event) {
                 boolean isChecked = hideHead.isSelected();
-                Repository.getPrincipalController().getStrategiesDataController().getHideHead().setVisible(!isChecked);
-                Repository.getPrincipalController().getStrategiesDataController().getHideHead().setManaged(!isChecked);
+                Repository.getPrincipalController().strategiesDataController.hideHead.setVisible(!isChecked);
+                Repository.getPrincipalController().strategiesDataController.hideHead.setManaged(!isChecked);
             }
         });
 

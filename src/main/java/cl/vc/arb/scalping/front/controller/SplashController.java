@@ -19,8 +19,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import javafx.util.Duration;
-import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.net.URL;
@@ -30,10 +28,10 @@ import java.util.ResourceBundle;
 public class SplashController implements Initializable {
 
     public static Stage ventanaApp;
-    @Getter
+
     public static ActorSystem actorSystem = ActorSystem.create();
-    @Getter
-    private static Properties properties;
+
+    public static Properties properties;
     @FXML
     private ImageView image;
 

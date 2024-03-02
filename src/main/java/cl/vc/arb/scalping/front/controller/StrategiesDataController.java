@@ -26,8 +26,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.util.Callback;
-import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.net.URL;
@@ -38,8 +36,8 @@ import java.util.ResourceBundle;
 
 public class StrategiesDataController implements Initializable {
 
-    private final DecimalFormat decimalFormat = new DecimalFormat("#,###.000000");
-    private HashMap<String, ScalpingStrategyProtos.ScalpingStrategy.Builder> mapStrategy = new HashMap<>();
+    public final DecimalFormat decimalFormat = new DecimalFormat("#,###.000000");
+    public HashMap<String, ScalpingStrategyProtos.ScalpingStrategy.Builder> mapStrategy = new HashMap<>();
 
     @FXML private Button btnSubscribeAll;
     @FXML private Button btnStartInflowAll;
@@ -66,13 +64,13 @@ public class StrategiesDataController implements Initializable {
     @FXML private TableColumn<ScalpingStrategyProtos.ScalpingStrategy.Builder, Double> round;
 
     @FXML private TableColumn<ScalpingStrategyProtos.ScalpingStrategy.Builder, String> trend;
-    @FXML private VBox hideHead;
+    @FXML public VBox hideHead;
 
-    private ObservableList<ScalpingStrategyProtos.ScalpingStrategy.Builder> strategiesObsListButton;
-    private FilteredList<ScalpingStrategyProtos.ScalpingStrategy.Builder> filteredData;
-    private FilteredList<ScalpingStrategyProtos.ScalpingStrategy.Builder> filteredDataButton;
-    private SortedList<ScalpingStrategyProtos.ScalpingStrategy.Builder> sortedData;
-    private SortedList<ScalpingStrategyProtos.ScalpingStrategy.Builder> sortedDataButton;
+    public ObservableList<ScalpingStrategyProtos.ScalpingStrategy.Builder> strategiesObsListButton;
+    public FilteredList<ScalpingStrategyProtos.ScalpingStrategy.Builder> filteredData;
+    public FilteredList<ScalpingStrategyProtos.ScalpingStrategy.Builder> filteredDataButton;
+    public SortedList<ScalpingStrategyProtos.ScalpingStrategy.Builder> sortedData;
+    public SortedList<ScalpingStrategyProtos.ScalpingStrategy.Builder> sortedDataButton;
 
 
     @Override
@@ -362,19 +360,19 @@ public class StrategiesDataController implements Initializable {
 
             if (strategyView == null) {
                 stage.setTitle("New trategy");
-                strategyController.getBtnUpdateStrategy().setDisable(true);
-                strategyController.getBtnDeleteStrategy().setDisable(true);
-                strategyController.getBtnAddStrategy().setDisable(false);
+                strategyController.btnUpdateStrategy.setDisable(true);
+                strategyController.btnDeleteStrategy.setDisable(true);
+                strategyController.btnAddStrategy.setDisable(false);
 
             } else if (clonar) {
                 strategyController.showCloneStrategy(strategyView);
             } else {
                 strategyController.showStrategyData(strategyView);
-                strategyController.getBtnUpdateStrategy().setDisable(false);
-                strategyController.getBtnDeleteStrategy().setDisable(false);
+                strategyController.btnUpdateStrategy.setDisable(false);
+                strategyController.btnDeleteStrategy.setDisable(false);
             }
 
-            strategyController.setStage(stage);
+            strategyController.stage = stage;
             stage.initModality(Modality.WINDOW_MODAL);
             stage.setResizable(false);
             stage.setScene(scene);
