@@ -13,9 +13,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
-import java.io.IOException;
-
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
 
@@ -33,8 +30,8 @@ public class MainApp extends Application {
             View view = null;
             try {
 
-                Label label = new Label("dsfsfdfds");
-                VBox roots = new VBox(20,  label);
+                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
+                VBox roots = new VBox(20,  root);
 
                 view = new View(roots) {
                     @Override
