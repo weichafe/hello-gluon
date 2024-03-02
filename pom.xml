@@ -106,10 +106,10 @@
                     <groupId>org.quickfixj</groupId>
                     <artifactId>quickfixj-all</artifactId>
                 </exclusion>
-                <!--exclusion>
+                <exclusion>
                     <groupId>ch.qos.logback</groupId>
                     <artifactId>logback-classic</artifactId>
-                </exclusion-->
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -189,10 +189,6 @@
                         <providedKeyAlias>${provided.key.alias}</providedKeyAlias>
                         <providedKeyAliasPassword>${provided.key.alias.password}</providedKeyAliasPassword>
                     </releaseConfiguration>
-                    <graalvmArgs>
-                        <graalvmArg>--initialize-at-run-time=ch.qos.logback.classic.Logger</graalvmArg>
-                        <!-- Agrega más argumentos de GraalVM según sea necesario -->
-                    </graalvmArgs>
                 </configuration>
             </plugin>
         </plugins>
