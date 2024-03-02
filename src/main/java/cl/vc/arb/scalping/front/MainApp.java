@@ -2,6 +2,9 @@ package cl.vc.arb.scalping.front;
 
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
+import com.gluonhq.charm.glisten.application.AppManager;
+import com.gluonhq.charm.glisten.control.AppBar;
+import com.gluonhq.charm.glisten.mvc.View;
 import com.gluonhq.charm.glisten.visual.Swatch;
 import com.gluonhq.hello.HelloGluonApp;
 import javafx.application.Application;
@@ -11,32 +14,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import lombok.extern.slf4j.Slf4j;
-import com.gluonhq.attach.display.DisplayService;
-import com.gluonhq.attach.util.Platform;
-import com.gluonhq.charm.glisten.application.AppManager;
-import com.gluonhq.charm.glisten.control.AppBar;
-import com.gluonhq.charm.glisten.control.FloatingActionButton;
-import com.gluonhq.charm.glisten.mvc.View;
-import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
-import com.gluonhq.charm.glisten.visual.Swatch;
-import javafx.application.Application;
-import javafx.geometry.Dimension2D;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
-import java.awt.*;
 import java.io.IOException;
-import java.net.URL;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
-@Slf4j
+
 public class MainApp extends Application {
 
     private final AppManager appManager = AppManager.initialize(this::postInit);

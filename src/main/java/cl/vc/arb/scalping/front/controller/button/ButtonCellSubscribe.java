@@ -9,7 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
+
 public class ButtonCellSubscribe extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
 
     final Button cellButtonSubscribe = new Button();
@@ -60,7 +60,7 @@ public class ButtonCellSubscribe extends TableCell<ScalpingStrategyProtos.Scalpi
                 }
             });
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 

@@ -35,8 +35,7 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
-@Slf4j
-@Data
+
 public class StrategiesDataController implements Initializable {
 
     private final DecimalFormat decimalFormat = new DecimalFormat("#,###.000000");
@@ -179,7 +178,7 @@ public class StrategiesDataController implements Initializable {
 
 
         } catch (Exception e) {
-            log.error("Error al eliminar strategia {} de la tabla...", strategyId, e);
+
         }
     }
 
@@ -295,7 +294,7 @@ public class StrategiesDataController implements Initializable {
 
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
 
         return strategyView;
@@ -340,7 +339,7 @@ public class StrategiesDataController implements Initializable {
             strategyView.setHandlInst(strategy.getHandlInst());
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
 
 
@@ -383,7 +382,7 @@ public class StrategiesDataController implements Initializable {
 
 
         } catch (IOException e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 
@@ -483,7 +482,7 @@ public class StrategiesDataController implements Initializable {
                         Repository.getNettyProtobufClient().sendMessage(operationsControl);
 
                     } catch (InterruptedException e) {
-                        log.error(e.getMessage(), e);
+
                     }
                 }
             });
@@ -514,7 +513,7 @@ public class StrategiesDataController implements Initializable {
             stage.showAndWait();
 
         } catch (IOException e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 }

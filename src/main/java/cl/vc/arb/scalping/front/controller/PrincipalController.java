@@ -18,8 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-@Slf4j
-@Data
+
 public class PrincipalController implements Initializable {
 
     @Getter

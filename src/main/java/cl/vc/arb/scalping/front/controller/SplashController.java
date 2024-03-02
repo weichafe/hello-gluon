@@ -27,7 +27,6 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.ResourceBundle;
 
-@Slf4j
 public class SplashController implements Initializable {
 
     public static Stage ventanaApp;
@@ -138,7 +137,7 @@ public class SplashController implements Initializable {
                     ventanaApp.show();
 
                 } catch (Exception e) {
-                    log.error("Error en carga de vista Principal...", e);
+
                 }
             }
         });

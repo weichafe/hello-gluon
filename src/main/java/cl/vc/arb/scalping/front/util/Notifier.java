@@ -2,20 +2,16 @@ package cl.vc.arb.scalping.front.util;
 
 import cl.vc.arb.scalping.front.Repository;
 import javafx.application.Platform;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
 
 import java.awt.*;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-@Slf4j
+
 public class Notifier {
 
-    @Getter
-    @Setter
+
     private static boolean isCoolingDown = false;
 
     public static void startNotification() {

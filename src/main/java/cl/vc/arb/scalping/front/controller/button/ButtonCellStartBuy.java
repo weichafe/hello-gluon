@@ -9,7 +9,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
 
     final Button cellButtonStart = new Button();
@@ -58,7 +57,7 @@ public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.Scalpin
             });
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 
