@@ -84,11 +84,11 @@
             <version>1.18.28</version>
         </dependency>
 
-        <dependency>
+        <!--dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.11</version>
-        </dependency>
+        </dependency-->
 
 
         <dependency>
@@ -109,6 +109,7 @@
             <artifactId>javafx-controls</artifactId>
             <version>17</version>
         </dependency>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
