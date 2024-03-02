@@ -37,30 +37,28 @@ public class MainApp extends Application {
     public void init() {
         appManager.addViewFactory(HOME_VIEW, () -> {
 
-            try {
+            FloatingActionButton fab = new FloatingActionButton(MaterialDesignIcon.SEARCH.text,
+                    e -> System.out.println("Search"));
 
-                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
-                Scene scene = new Scene(root, 300, 290);
-                primaryStage.setTitle("Splash Screen");
-                primaryStage.setResizable(true);
-                primaryStage.setScene(scene);
-                primaryStage.initStyle(StageStyle.TRANSPARENT);
-                primaryStage.show();
+            ImageView imageView = new ImageView(new Image(HelloGluonApp.class.getResourceAsStream("openduke.png")));
 
-                View view = new View(root) {
-                    @Override
-                    protected void updateAppBar(AppBar appBar) {
+            imageView.setFitHeight(200);
+            imageView.setPreserveRatio(true);
 
-                        appBar.setTitleText("Gluon Mobile");
-                    }
-                };
+            Label label = new Label("Hello, Gluon Mobile!");
+            VBox root = new VBox(20, imageView, label);
+            root.setAlignment(Pos.CENTER);
 
-                return view;
+            View view = new View(root) {
+                @Override
+                protected void updateAppBar(AppBar appBar) {
+                    appBar.setTitleText("Gluon Mobile");
+                }
+            };
 
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+            fab.showOn(view);
 
+            return view;
         });
     }
 
