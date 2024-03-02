@@ -4,23 +4,15 @@ import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
 import com.gluonhq.charm.glisten.control.AppBar;
-import com.gluonhq.charm.glisten.control.FloatingActionButton;
 import com.gluonhq.charm.glisten.mvc.View;
-import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
-import com.gluonhq.charm.glisten.visual.Swatch;
-import com.gluonhq.hello.HelloGluonApp;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
-import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -47,7 +39,7 @@ public class MainApp extends Application {
                 Label label = new Label(root.getId());
                 VBox roots = new VBox(20,  label);
 
-                view = new View(root) {
+                view = new View(roots) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
                         appBar.setTitleText("Gluon Mobile");
