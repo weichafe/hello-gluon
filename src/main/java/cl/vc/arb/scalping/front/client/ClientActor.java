@@ -50,7 +50,7 @@ public class ClientActor extends AbstractActor {
 
 
         } catch (Exception exc) {
-            log.error(exc.getMessage(), exc);
+
         }
     }
 
@@ -96,7 +96,7 @@ public class ClientActor extends AbstractActor {
             }
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 
@@ -112,7 +112,7 @@ public class ClientActor extends AbstractActor {
 
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 
@@ -141,7 +141,7 @@ public class ClientActor extends AbstractActor {
 
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 
@@ -167,7 +167,7 @@ public class ClientActor extends AbstractActor {
             Repository.getNotificationList().add(message);
 
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+
         }
     }
 
