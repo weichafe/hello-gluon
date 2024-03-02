@@ -29,6 +29,9 @@ jobs:
         with:
           gluon-license: ${{ secrets.GLUON_LICENSE }}
 
+      - name: Set mvnw executable
+        run: chmod +x ./mvnw
+
       - name: Gluon Build
         run: ./mvnw -Ppi gluonfx:build gluonfx:package
 

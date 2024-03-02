@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c440c5a-d63e-4872-a744-351d4b4a1760" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/aarch64-linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/aarch64-linux.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/linux.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/macos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/macos.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/windows.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/windows.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,15 +244,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
