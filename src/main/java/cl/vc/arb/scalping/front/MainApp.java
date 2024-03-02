@@ -31,14 +31,14 @@ public class MainApp extends Application {
             try {
 
                 Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
-                VBox roots = new VBox(20,  root);
-
-                view = new View(roots) {
+                view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
                         appBar.setTitleText("Gluon Mobile");
                     }
                 };
+
+                return view;
 
             } catch (Exception e) {
 
