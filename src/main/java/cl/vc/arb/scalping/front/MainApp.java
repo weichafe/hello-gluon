@@ -33,7 +33,7 @@ public class MainApp extends Application {
             View view = null;
             try {
 
-                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
+                Parent root = FXMLLoader.load(MainApp.class.getResource("/view/Splash.fxml"));
                 Scene scene = new Scene(root, 300, 290);
 
                 Label label = new Label(root.getId());
@@ -47,7 +47,14 @@ public class MainApp extends Application {
                 };
 
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                Label label = new Label(e.getMessage());
+                VBox roots = new VBox(20,  label);
+                view = new View(roots) {
+                    @Override
+                    protected void updateAppBar(AppBar appBar) {
+                        appBar.setTitleText("Gluon Mobile");
+                    }
+                };
             }
 
 

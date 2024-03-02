@@ -5,9 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c440c5a-d63e-4872-a744-351d4b4a1760" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gluonhq/hello/HelloGluonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gluonhq/hello/HelloGluonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/substrate/ios/Partial-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/substrate/macos/Partial-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/enviroment/STRATEGIES_EXECUTIONS_ALGO.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/enviroment/STRATEGIES_EXECUTIONS_ALGO_TEST.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/conexions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/docknode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/excel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/prod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Footer.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Notifications.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PositionsView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +282,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/ResearchAndoid/hello-gluon/src/main/resources",
+    "last_opened_file_path": "E:/ResearchAndoid/hello-gluon/src/main/resources/cl.vc.arb.scalping.front",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -257,6 +290,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ResearchAndoid\hello-gluon\src\main\resources\cl.vc.arb.scalping.front" />
       <recent name="E:\ResearchAndoid\hello-gluon\src\main\resources" />
       <recent name="E:\ResearchAndoid\hello-gluon\src\main\java\cl\vc\arb\scalping\front" />
       <recent name="E:\ResearchAndoid\hello-gluon\src\main\java" />
@@ -473,5 +507,16 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
