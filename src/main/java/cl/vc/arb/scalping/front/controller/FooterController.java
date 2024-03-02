@@ -6,13 +6,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
 import javafx.scene.input.MouseEvent;
-import lombok.Data;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 
-@Data
+
 public class FooterController implements Initializable {
 
 

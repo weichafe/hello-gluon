@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c440c5a-d63e-4872-a744-351d4b4a1760" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/client/ClientActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/client/ClientActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellogluon.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/FooterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/FooterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/PrincipalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/SplashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/StrategiesDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/StrategiesDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/StrategyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/StrategyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellStartBuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellStartBuy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellStartSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellStartSell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellSubscribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/controller/button/ButtonCellSubscribe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Footer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PositionsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PositionsView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
