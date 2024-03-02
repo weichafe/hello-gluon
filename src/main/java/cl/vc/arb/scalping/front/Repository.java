@@ -3,7 +3,6 @@ package cl.vc.arb.scalping.front;
 import cl.vc.arb.scalping.front.controller.PrincipalController;
 import cl.vc.module.protocolbuff.notification.NotificationMessage;
 import cl.vc.module.protocolbuff.tcp.NettyProtobufClient;
-
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;

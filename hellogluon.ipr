@@ -45,6 +45,11 @@
   <component name="JUnitProjectSettings">
     <option name="TEST_RUNNER" value="UI" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hellogluon" options="" />
+    </option>
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OPTION_HIERARCHY" value="false" />
     <option name="OPTION_NAVIGATOR" value="false" />

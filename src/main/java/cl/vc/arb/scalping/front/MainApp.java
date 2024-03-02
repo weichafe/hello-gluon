@@ -33,8 +33,8 @@ public class MainApp extends Application {
             View view = null;
             try {
 
-                Parent root = FXMLLoader.load(MainApp.class.getResource("Splash.fxml"), ResourceBundle.getBundle("cl.vc.arb.scalping.front.view.Splash"));
-                view = new View(root) {
+                Parent root = FXMLLoader.load(MainApp.class.getResource("/view/Splash.fxml"));
+                view = new View() {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
                         appBar.setTitleText("Gluon Mobile");
@@ -63,6 +63,7 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) {
+        primaryStage = stage;
         appManager.start(stage);
     }
 

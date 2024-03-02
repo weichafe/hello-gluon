@@ -36,9 +36,12 @@ public class PrincipalController implements Initializable {
             Repository.setPrincipalController(this);
             Notifier.startNotification();
             client = SplashController.actorSystem.actorOf(new RoundRobinPool(1).props(ClientActor.props()), "ClientManager");
+            /*
             Repository.setNettyProtobufClient(new NettyProtobufClient(SplashController.properties.getProperty("controller"),
                     client, "log/", "front-blotter", NotificationMessage.Component.valueOf(SplashController.properties.getProperty("name"))));
             new Thread(Repository.getNettyProtobufClient()).start();
+
+             */
 
         } catch (Exception e) {
             throw new RuntimeException(e);

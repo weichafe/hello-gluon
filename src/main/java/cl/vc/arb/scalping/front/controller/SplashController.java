@@ -1,6 +1,7 @@
 package cl.vc.arb.scalping.front.controller;
 
 import akka.actor.ActorSystem;
+import cl.vc.arb.scalping.front.MainApp;
 import cl.vc.arb.scalping.front.Repository;
 import javafx.animation.FadeTransition;
 import javafx.application.Platform;
@@ -22,6 +23,7 @@ import javafx.util.Duration;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Optional;
 import java.util.Properties;
 import java.util.ResourceBundle;
 
@@ -38,107 +40,51 @@ public class SplashController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        FadeTransition transition = new FadeTransition(Duration.millis(500), image);
+        try {
 
-        properties = new Properties();
+            System.setProperty("enviroment", "PRODUCTION");
 
-        ComboBox<String> comboBox = new ComboBox<>();
-        comboBox.getItems().addAll("STRATEGIES_EXECUTIONS_ALGO");
-        comboBox.getSelectionModel().selectFirst();
 
-        ComboBox<String> enviroment = new ComboBox<>();
-        enviroment.getItems().addAll("PRODUCTION", "TEST");
-        enviroment.getSelectionModel().selectFirst();
+            ventanaApp = new Stage();
+            Parent root = null;
 
-        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("ALGO PAIRS");
-        alert.setHeaderText("Select an option");
-
-        VBox vBox = new VBox(10);
-        vBox.setPrefWidth(300);
-        vBox.getChildren().addAll(new Label("Select an option"), enviroment, comboBox);
-        alert.getDialogPane().setContent(vBox);
-
-        DialogPane dialogPane = alert.getDialogPane();
-        dialogPane.getStylesheets().add(getClass().getResource("/css/SimpleTheme.css").toExternalForm());
-
-        ButtonType okButtonType = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
-        ButtonType cancelButtonType = new ButtonType("Cancelar", ButtonBar.ButtonData.CANCEL_CLOSE);
-        alert.getButtonTypes().setAll(okButtonType, cancelButtonType);
-
-        Node okButton = dialogPane.lookupButton(okButtonType);
-        Node cancelButton = dialogPane.lookupButton(cancelButtonType);
-        okButton.getStyleClass().add("button");
-        cancelButton.getStyleClass().add("button");
-
-        ButtonType resultado = alert.showAndWait().orElse(ButtonType.CANCEL);
-
-        if (resultado == okButtonType) {
             try {
-                String select = comboBox.getSelectionModel().getSelectedItem();
-                String enviromentCom = enviroment.getSelectionModel().getSelectedItem();
+                properties = new Properties();
+                //properties.load(getClass().getClassLoader().getResourceAsStream("enviroment/STRATEGIES_EXECUTIONS_ALGO.properties"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"), resources);
+                root = loader.load();
+                loader.getController();
+                Scene scene = new Scene(root);
+                ventanaApp.setResizable(true);
+                ventanaApp.setMaximized(false);
+                ventanaApp.setScene(scene);
 
-                if (enviromentCom.equals("PRODUCTION")) {
-                    properties.load(SplashController.class.getClassLoader().getResourceAsStream("enviroment/" + select + ".properties"));
-                } else {
-                    properties.load(SplashController.class.getClassLoader().getResourceAsStream("enviroment/" + select + "_TEST.properties"));
-                }
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+                //ventanaApp.getIcons().add(new Image(properties.getProperty("app.icon.ruta")));
+
+                ventanaApp.setOnCloseRequest(e -> {
+                    Repository.getNettyProtobufClient().stopClient();
+                    Platform.exit();
+                    System.exit(0);
+                });
+
+                ventanaApp.setOnShowing(new EventHandler<WindowEvent>() {
+                    @Override
+                    public void handle(WindowEvent event) {
+                        MainApp.primaryStage.hide();
+                    }
+                });
+
+                ventanaApp.show();
+
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
             }
 
-            transition.setFromValue(0.1);
-            transition.setToValue(1.0);
-            transition.setAutoReverse(true);
-            transition.setCycleCount(1);
-            transition.play();
-        } else {
-            System.exit(1);
+        } catch (Exception ex){
+            ex.printStackTrace();
         }
-
-
-        transition.setOnFinished(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-
-                System.setProperty("enviroment", "PRODUCTION");
-
-                Stage ventana = (Stage) image.getScene().getWindow();
-                ventanaApp = new Stage();
-                Parent root = null;
-
-                try {
-
-                    FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"), resources);
-                    root = loader.load();
-                    loader.getController();
-                    Scene scene = new Scene(root);
-                    ventanaApp.setResizable(true);
-                    ventanaApp.setMaximized(false);
-                    ventanaApp.setScene(scene);
-
-                    ventanaApp.getIcons().add(new Image(properties.getProperty("app.icon.ruta")));
-
-                    ventanaApp.setOnCloseRequest(e -> {
-                        Repository.getNettyProtobufClient().stopClient();
-                        Platform.exit();
-                        System.exit(0);
-                    });
-
-                    ventanaApp.setOnShowing(new EventHandler<WindowEvent>() {
-                        @Override
-                        public void handle(WindowEvent event) {
-                            ventana.hide();
-                        }
-                    });
-
-                    ventanaApp.show();
-
-                } catch (Exception e) {
-
-                }
-            }
-        });
 
     }
 
