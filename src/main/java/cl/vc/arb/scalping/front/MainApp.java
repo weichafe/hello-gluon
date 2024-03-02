@@ -41,11 +41,8 @@ public class MainApp extends Application {
                 return view;
 
             } catch (Exception e) {
-
+                return new View(new Label("Error loading the splash screen."));
             }
-
-
-            return view;
         });
     }
 

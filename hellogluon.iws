@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c440c5a-d63e-4872-a744-351d4b4a1760" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/vc/arb/scalping/front/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
