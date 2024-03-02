@@ -696,92 +696,92 @@
         <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.93.Final/netty-transport-4.1.93.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-base:17">
+    <library name="Maven: org.openjfx:javafx-base:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17/javafx-base-17.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17/javafx-base-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17/javafx-base-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-base:win:17">
+    <library name="Maven: org.openjfx:javafx-base:win:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17/javafx-base-17-win.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-win.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17/javafx-base-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17/javafx-base-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-controls:17">
+    <library name="Maven: org.openjfx:javafx-controls:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17/javafx-controls-17.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17/javafx-controls-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17/javafx-controls-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-controls:win:17">
+    <library name="Maven: org.openjfx:javafx-controls:win:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17/javafx-controls-17-win.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-win.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17/javafx-controls-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17/javafx-controls-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-fxml:17">
+    <library name="Maven: org.openjfx:javafx-fxml:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17/javafx-fxml-17.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17/javafx-fxml-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17/javafx-fxml-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-fxml:win:17">
+    <library name="Maven: org.openjfx:javafx-fxml:win:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17/javafx-fxml-17-win.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-win.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17/javafx-fxml-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17/javafx-fxml-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-graphics:17">
+    <library name="Maven: org.openjfx:javafx-graphics:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17/javafx-graphics-17.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17/javafx-graphics-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17/javafx-graphics-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.openjfx:javafx-graphics:win:17">
+    <library name="Maven: org.openjfx:javafx-graphics:win:21">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17/javafx-graphics-17-win.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-win.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17/javafx-graphics-17-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17/javafx-graphics-17-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.projectlombok:lombok:1.18.28">
