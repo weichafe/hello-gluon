@@ -18,7 +18,7 @@
         <connect.version>2.0.1</connect.version>
         <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
         <gluonfx.maven.plugin.version>1.0.22</gluonfx.maven.plugin.version>
-        <main.class>com.gluonhq.hello.HelloGluonApp</main.class>
+        <main.class>cl.vc.arb.scalping.front.MainApp</main.class>
         <app.identifier>${main.class}</app.identifier>
         <app.description>The HelloGluon app</app.description>
         <package.type/>
@@ -70,6 +70,51 @@
             <artifactId>util</artifactId>
             <version>${attach.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>eu.hansolo.enzo</groupId>
+            <artifactId>Enzo</artifactId>
+            <version>0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+            <version>1.18.28</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cl.vc.modules</groupId>
+            <artifactId>protocol-buff</artifactId>
+            <version>1.3.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.quickfixj</groupId>
+                    <artifactId>quickfixj-all</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>17</version>
+        </dependency>
+
+
     </dependencies>
 
     <repositories>
@@ -182,7 +227,7 @@
             <id>android</id>
             <properties>
                 <gluonfx.target>android</gluonfx.target>
-                <app.identifier>com.gluonhq.samples.hellogluon</app.identifier>
+                <app.identifier>cl.vc.arb.scalping.front.MainApp</app.identifier>
                 <version.code>${env.GITHUB_RUN_NUMBER}</version.code>
                 <provided.keystore.path>${env.GLUON_ANDROID_KEYSTOREPATH}</provided.keystore.path>
                 <provided.keystore.password>${env.GLUON_ANDROID_KEYSTORE_PASSWORD}</provided.keystore.password>

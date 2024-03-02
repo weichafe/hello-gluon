@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane stylesheets="@../css/SimpleTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="cl.vc.arb.scalping.front.controller.notifications.NotificationsController">
+   <children>
+      <VBox id="vboxNotifications" fx:id="vboxNotifications" alignment="CENTER"
+            layoutX="10.0" layoutY="10.0" spacing="10.0" AnchorPane.bottomAnchor="0.0"
+            AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label prefWidth="50.0" text="filter" />
+               </children>
+            </HBox>
+            <HBox VBox.vgrow="ALWAYS">
+               <children>
+                  <TableView id="tvNotifications" fx:id="tvNotifications" prefHeight="500.0" HBox.hgrow="ALWAYS">
+                     <columns>
+                        <TableColumn fx:id="tcTime" prefWidth="75.0" sortType="DESCENDING" text="Time" />
+                        <TableColumn fx:id="tcLevel" prefWidth="75.0" text="Level" />
+                        <TableColumn fx:id="tcTitle" prefWidth="200.0" text="Title" />
+                        <TableColumn fx:id="tcMessage" minWidth="300.0" prefWidth="400.0" text="Message" />
+                        <TableColumn fx:id="tcComponent" minWidth="200.0" prefWidth="75.0" text="Component" />
+                        <TableColumn fx:id="tcType" minWidth="100.0" prefWidth="75.0" text="type" />
+                     </columns>
+                  </TableView>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
