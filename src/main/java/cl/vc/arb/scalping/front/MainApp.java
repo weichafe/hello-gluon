@@ -13,6 +13,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import java.util.ResourceBundle;
+
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
 
@@ -30,7 +33,7 @@ public class MainApp extends Application {
             View view = null;
             try {
 
-                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
+                Parent root = FXMLLoader.load(MainApp.class.getResource("Splash.fxml"), ResourceBundle.getBundle("cl.vc.arb.scalping.front.view.hello.Splash"));
                 view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
