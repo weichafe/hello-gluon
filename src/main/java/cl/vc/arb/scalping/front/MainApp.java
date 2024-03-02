@@ -4,14 +4,21 @@ import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
 import com.gluonhq.charm.glisten.control.AppBar;
+import com.gluonhq.charm.glisten.control.FloatingActionButton;
 import com.gluonhq.charm.glisten.mvc.View;
+import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
 import com.gluonhq.charm.glisten.visual.Swatch;
 import com.gluonhq.hello.HelloGluonApp;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
+import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -26,8 +33,35 @@ public class MainApp extends Application {
 
     public static Stage primaryStage;
 
-    public static void main(String[] args) {
-        launch(args);
+    @Override
+    public void init() {
+        appManager.addViewFactory(HOME_VIEW, () -> {
+
+            try {
+
+                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
+                Scene scene = new Scene(root, 300, 290);
+                primaryStage.setTitle("Splash Screen");
+                primaryStage.setResizable(true);
+                primaryStage.setScene(scene);
+                primaryStage.initStyle(StageStyle.TRANSPARENT);
+                primaryStage.show();
+
+                View view = new View(root) {
+                    @Override
+                    protected void updateAppBar(AppBar appBar) {
+
+                        appBar.setTitleText("Gluon Mobile");
+                    }
+                };
+
+                return view;
+
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+        });
     }
 
 
@@ -45,37 +79,13 @@ public class MainApp extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage stage) {
+        primaryStage = stage;
+        appManager.start(stage);
+    }
 
-        appManager.addViewFactory(HOME_VIEW, () -> {
-
-            try {
-
-                this.primaryStage = primaryStage;
-
-                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
-                Scene scene = new Scene(root, 300, 290);
-                primaryStage.setTitle("Splash Screen");
-                primaryStage.setResizable(true);
-                primaryStage.setScene(scene);
-                primaryStage.initStyle(StageStyle.TRANSPARENT);
-                primaryStage.show();
-
-                View view = new View(root) {
-                    @Override
-                    protected void updateAppBar(AppBar appBar) {
-                        appBar.setTitleText("Gluon Mobile");
-                    }
-                };
-
-                return view;
-
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-
-        });
-
+    public static void main(String[] args) {
+        launch(args);
     }
 
 }
