@@ -37,26 +37,27 @@ public class MainApp extends Application {
     public void init() {
         appManager.addViewFactory(HOME_VIEW, () -> {
 
-            FloatingActionButton fab = new FloatingActionButton(MaterialDesignIcon.SEARCH.text,
-                    e -> System.out.println("Search"));
 
-            ImageView imageView = new ImageView(new Image(HelloGluonApp.class.getResourceAsStream("openduke.png")));
+            View view = null;
+            try {
 
-            imageView.setFitHeight(200);
-            imageView.setPreserveRatio(true);
+                Parent root = FXMLLoader.load(getClass().getResource("/view/Splash.fxml"));
+                Scene scene = new Scene(root, 300, 290);
 
-            Label label = new Label("Hello, Gluon Mobile!");
-            VBox root = new VBox(20, imageView, label);
-            root.setAlignment(Pos.CENTER);
+                Label label = new Label(root.getId());
+                VBox roots = new VBox(20,  label);
 
-            View view = new View(root) {
-                @Override
-                protected void updateAppBar(AppBar appBar) {
-                    appBar.setTitleText("Gluon Mobile");
-                }
-            };
+                view = new View(root) {
+                    @Override
+                    protected void updateAppBar(AppBar appBar) {
+                        appBar.setTitleText("Gluon Mobile");
+                    }
+                };
 
-            fab.showOn(view);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
 
             return view;
         });
@@ -64,8 +65,6 @@ public class MainApp extends Application {
 
 
     private void postInit(Scene scene) {
-        Swatch.LIGHT_GREEN.assignTo(scene);
-        scene.getStylesheets().add(HelloGluonApp.class.getResource("styles.css").toExternalForm());
 
         if (Platform.isDesktop()) {
             Dimension2D dimension2D = DisplayService.create()
