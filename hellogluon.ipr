@@ -1,64 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-Licensed to the Apache Software Foundation (ASF) under one
-or more contributor license agreements.  See the NOTICE file
-distributed with this work for additional information
-regarding copyright ownership.  The ASF licenses this file
-to you under the Apache License, Version 2.0 (the
-"License"); you may not use this file except in compliance
-with the License.  You may obtain a copy of the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing,
-software distributed under the License is distributed on an
-"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, either express or implied.  See the License for the
-specific language governing permissions and limitations
-under the License.
--->
-<project version="4" relativePaths="false"> 
-  <component name="ProjectRootManager" version="2" assert-keyword="true" project-jdk-name="17." jdk-15="true"/>  
+<project version="4"> 
+  <component name="AntConfiguration"> 
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>  
+    <option name="FILTER_TARGETS" value="false"/> 
+  </component>  
   <component name="CodeStyleManager"> 
     <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true"/>  
     <option name="CODE_STYLE_SCHEME" value=""/> 
   </component>  
-  <component name="libraryTable"/>  
   <component name="CompilerConfiguration"> 
-    <option name="DEFAULT_COMPILER" value="Javac"/>  
-    <option name="CLEAR_OUTPUT_DIRECTORY" value="false"/>  
-    <!--
-    <wildcardResourcePatterns>
-      <entry name="${wildcardResourcePattern}"/>
-    </wildcardResourcePatterns>
-    -->  
+    <bytecodeTargetLevel> 
+      <module name="hellogluon" target="11"/> 
+    </bytecodeTargetLevel>  
     <wildcardResourcePatterns>
       <entry name="!?*.java"/>
     </wildcardResourcePatterns>
   </component>  
-  <component name="JavacSettings"> 
-    <option name="DEBUGGING_INFO" value="true"/>  
-    <option name="GENERATE_NO_WARNINGS" value="false"/>  
-    <option name="DEPRECATION" value="true"/>  
-    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
-    <option name="MAXIMUM_HEAP_SIZE" value="128"/>  
-    <option name="USE_GENERICS_COMPILER" value="false"/> 
+  <component name="ExportToHTMLSettings"> 
+    <option name="PRINT_LINE_NUMBERS" value="false"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/>  
+    <option name="OUTPUT_DIRECTORY"/> 
   </component>  
-  <component name="JikesSettings"> 
-    <option name="DEBUGGING_INFO" value="true"/>  
-    <option name="DEPRECATION" value="true"/>  
-    <option name="GENERATE_NO_WARNINGS" value="false"/>  
-    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false"/>  
-    <option name="DO_FULL_DEPENDENCE_CHECK" value="false"/>  
-    <option name="IS_INCREMENTAL_MODE" value="false"/>  
-    <option name="IS_EMACS_ERRORS_MODE" value="true"/>  
-    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
-    <option name="MAXIMUM_HEAP_SIZE" value="128"/> 
+  <component name="ExternalStorageConfigurationManager" enabled="true"/>  
+  <component name="ImportConfiguration"> 
+    <option name="VENDOR"/>  
+    <option name="RELEASE_TAG"/>  
+    <option name="LOG_MESSAGE"/>  
+    <option name="CHECKOUT_AFTER_IMPORT" value="true"/> 
   </component>  
-  <component name="AntConfiguration"> 
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>  
-    <option name="FILTER_TARGETS" value="false"/> 
+  <component name="InspectionProjectProfileManager"> 
+    <profile version="1.0"> 
+      <option name="myName" value="Project Default"/> 
+    </profile>  
+    <version value="1.0"/> 
+  </component>  
+  <component name="JUnitProjectSettings"> 
+    <option name="TEST_RUNNER" value="UI"/> 
   </component>  
   <component name="JavadocGenerationManager"> 
     <option name="OUTPUT_DIRECTORY"/>  
@@ -77,31 +55,808 @@ under the License.
     <option name="HEAP_SIZE"/>  
     <option name="OPEN_IN_BROWSER" value="false"/> 
   </component>  
-  <component name="JUnitProjectSettings"> 
-    <option name="TEST_RUNNER" value="UI"/> 
+  <component name="JikesSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false"/>  
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false"/>  
+    <option name="IS_INCREMENTAL_MODE" value="false"/>  
+    <option name="IS_EMACS_ERRORS_MODE" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/> 
   </component>  
-  <component name="EntryPointsManager"> 
-    <entry_points/> 
-  </component>  
-  <component name="DataSourceManager"/>  
-  <component name="ExportToHTMLSettings"> 
-    <option name="PRINT_LINE_NUMBERS" value="false"/>  
-    <option name="OPEN_IN_BROWSER" value="false"/>  
-    <option name="OUTPUT_DIRECTORY"/> 
-  </component>  
-  <component name="ImportConfiguration"> 
-    <option name="VENDOR"/>  
-    <option name="RELEASE_TAG"/>  
-    <option name="LOG_MESSAGE"/>  
-    <option name="CHECKOUT_AFTER_IMPORT" value="true"/> 
+  <component name="MavenProjectsManager"> 
+    <option name="originalFiles"> 
+      <list> 
+        <option value="$PROJECT_DIR$/pom.xml"/> 
+      </list> 
+    </option>  
+    <option name="workspaceImportForciblyTurnedOn" value="true"/> 
   </component>  
   <component name="ProjectModuleManager"> 
     <modules> 
-      <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
       <module filepath="$PROJECT_DIR$/hellogluon.iml"/>
     </modules> 
   </component>  
-  <UsedPathMacros> 
-    <!--<macro name="cargo"></macro>--> 
-  </UsedPathMacros> 
+  <component name="ProjectRootManager" version="2" project-jdk-name="17." assert-keyword="true" jdk-15="true"/>  
+  <component name="RemoteRepositoriesConfiguration"> 
+    <remote-repository> 
+      <option name="id" value="snapshot"/>  
+      <option name="name" value="snapshot"/>  
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots/"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="central"/>  
+      <option name="name" value="Central Repository"/>  
+      <option name="url" value="https://repo.maven.apache.org/maven2"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="jitpack.io"/>  
+      <option name="name" value="jitpack.io"/>  
+      <option name="url" value="https://jitpack.io"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="repository.jboss.org"/>  
+      <option name="name" value="repository.jboss.org"/>  
+      <option name="url" value="https://repository.jboss.org/maven2"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="central"/>  
+      <option name="name" value="Maven Central repository"/>  
+      <option name="url" value="https://repo1.maven.org/maven2"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="jboss.community"/>  
+      <option name="name" value="JBoss Community repository"/>  
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="snapshots.jboss.org"/>  
+      <option name="name" value="snapshots.jboss.org"/>  
+      <option name="url" value="https://snapshots.jboss.org/maven2"/> 
+    </remote-repository>  
+    <remote-repository> 
+      <option name="id" value="Gluon"/>  
+      <option name="name" value="Gluon"/>  
+      <option name="url" value="https://nexus.gluonhq.com/nexus/content/repositories/releases"/> 
+    </remote-repository> 
+  </component>  
+  <component name="VcsDirectoryMappings"> 
+    <mapping directory="" vcs="Git"/> 
+  </component>  
+  <component name="libraryTable"> 
+    <library name="Maven: com.github.weichafe:module:v1" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.github.weichafe" artifactId="module" version="v1"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/weichafe/module/v1/module-v1.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/weichafe/module/v1/module-v1-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/weichafe/module/v1/module-v1-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.gluonhq.attach:display:4.0.19" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.gluonhq.attach" artifactId="display" version="4.0.19"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/display/4.0.19/display-4.0.19.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/display/4.0.19/display-4.0.19-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/display/4.0.19/display-4.0.19-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.gluonhq.attach:lifecycle:4.0.19" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.gluonhq.attach" artifactId="lifecycle" version="4.0.19"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/lifecycle/4.0.19/lifecycle-4.0.19.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/lifecycle/4.0.19/lifecycle-4.0.19-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/lifecycle/4.0.19/lifecycle-4.0.19-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.gluonhq.attach:statusbar:4.0.19" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.gluonhq.attach" artifactId="statusbar" version="4.0.19"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/statusbar/4.0.19/statusbar-4.0.19.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/statusbar/4.0.19/statusbar-4.0.19-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/statusbar/4.0.19/statusbar-4.0.19-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.gluonhq.attach:storage:4.0.19" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.gluonhq.attach" artifactId="storage" version="4.0.19"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/storage/4.0.19/storage-4.0.19.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/storage/4.0.19/storage-4.0.19-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/storage/4.0.19/storage-4.0.19-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.gluonhq.attach:util:4.0.19" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.gluonhq.attach" artifactId="util" version="4.0.19"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/util/4.0.19/util-4.0.19.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/util/4.0.19/util-4.0.19-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/attach/util/4.0.19/util-4.0.19-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.gluonhq:charm-glisten:6.2.3" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.gluonhq" artifactId="charm-glisten" version="6.2.3"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/gluonhq/charm-glisten/6.2.3/charm-glisten-6.2.3-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.google.code.findbugs:jsr305:3.0.2" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.google.code.findbugs" artifactId="jsr305" version="3.0.2"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.google.code.gson:gson:2.8.9" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.google.code.gson" artifactId="gson" version="2.8.9"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.9/gson-2.8.9-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.9/gson-2.8.9-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.google.errorprone:error_prone_annotations:2.11.0" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.google.errorprone" artifactId="error_prone_annotations" version="2.11.0"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.google.j2objc:j2objc-annotations:1.3" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.google.j2objc" artifactId="j2objc-annotations" version="1.3"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.google.protobuf:protobuf-java-util:3.22.2" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.google.protobuf" artifactId="protobuf-java-util" version="3.22.2"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.22.2/protobuf-java-util-3.22.2.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.22.2/protobuf-java-util-3.22.2-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.22.2/protobuf-java-util-3.22.2-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.google.protobuf:protobuf-java:3.22.2" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.google.protobuf" artifactId="protobuf-java" version="3.22.2"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.22.2/protobuf-java-3.22.2.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.22.2/protobuf-java-3.22.2-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.22.2/protobuf-java-3.22.2-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.typesafe.akka:akka-actor_3:2.8.2" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.typesafe.akka" artifactId="akka-actor_3" version="2.8.2"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_3/2.8.2/akka-actor_3-2.8.2.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_3/2.8.2/akka-actor_3-2.8.2-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_3/2.8.2/akka-actor_3-2.8.2-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: com.typesafe:config:1.4.2" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="com.typesafe" artifactId="config" version="1.4.2"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.4.2/config-1.4.2.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.4.2/config-1.4.2-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.4.2/config-1.4.2-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: eu.hansolo.enzo:Enzo:0.1" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="eu.hansolo.enzo" artifactId="Enzo" version="0.1"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/enzo/Enzo/0.1/Enzo-0.1.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/enzo/Enzo/0.1/Enzo-0.1-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/enzo/Enzo/0.1/Enzo-0.1-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-all:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-all" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.93.Final/netty-all-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.93.Final/netty-all-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.93.Final/netty-all-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-buffer:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-buffer" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.93.Final/netty-buffer-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.93.Final/netty-buffer-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.93.Final/netty-buffer-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-dns:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-dns" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.93.Final/netty-codec-dns-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.93.Final/netty-codec-dns-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.93.Final/netty-codec-dns-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-haproxy:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-haproxy" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-haproxy/4.1.93.Final/netty-codec-haproxy-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-haproxy/4.1.93.Final/netty-codec-haproxy-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-haproxy/4.1.93.Final/netty-codec-haproxy-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-http2:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-http2" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.93.Final/netty-codec-http2-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.93.Final/netty-codec-http2-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.93.Final/netty-codec-http2-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-http:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-http" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.93.Final/netty-codec-http-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.93.Final/netty-codec-http-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.93.Final/netty-codec-http-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-memcache:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-memcache" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-memcache/4.1.93.Final/netty-codec-memcache-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-memcache/4.1.93.Final/netty-codec-memcache-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-memcache/4.1.93.Final/netty-codec-memcache-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-mqtt:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-mqtt" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-mqtt/4.1.93.Final/netty-codec-mqtt-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-mqtt/4.1.93.Final/netty-codec-mqtt-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-mqtt/4.1.93.Final/netty-codec-mqtt-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-redis:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-redis" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-redis/4.1.93.Final/netty-codec-redis-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-redis/4.1.93.Final/netty-codec-redis-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-redis/4.1.93.Final/netty-codec-redis-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-smtp:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-smtp" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-smtp/4.1.93.Final/netty-codec-smtp-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-smtp/4.1.93.Final/netty-codec-smtp-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-smtp/4.1.93.Final/netty-codec-smtp-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-socks:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-socks" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.93.Final/netty-codec-socks-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.93.Final/netty-codec-socks-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.93.Final/netty-codec-socks-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-stomp:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-stomp" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-stomp/4.1.93.Final/netty-codec-stomp-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-stomp/4.1.93.Final/netty-codec-stomp-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-stomp/4.1.93.Final/netty-codec-stomp-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec-xml:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec-xml" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-xml/4.1.93.Final/netty-codec-xml-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-xml/4.1.93.Final/netty-codec-xml-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-xml/4.1.93.Final/netty-codec-xml-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-codec:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-codec" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.93.Final/netty-codec-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.93.Final/netty-codec-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.93.Final/netty-codec-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-common:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-common" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.93.Final/netty-common-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.93.Final/netty-common-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.93.Final/netty-common-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-handler-proxy:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-handler-proxy" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.93.Final/netty-handler-proxy-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.93.Final/netty-handler-proxy-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.93.Final/netty-handler-proxy-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-handler-ssl-ocsp:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-handler-ssl-ocsp" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-ssl-ocsp/4.1.93.Final/netty-handler-ssl-ocsp-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-ssl-ocsp/4.1.93.Final/netty-handler-ssl-ocsp-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-ssl-ocsp/4.1.93.Final/netty-handler-ssl-ocsp-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-handler:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-handler" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.93.Final/netty-handler-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.93.Final/netty-handler-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.93.Final/netty-handler-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-resolver-dns-classes-macos" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.93.Final/netty-resolver-dns-classes-macos-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.93.Final/netty-resolver-dns-classes-macos-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.93.Final/netty-resolver-dns-classes-macos-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-aarch_64:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-resolver-dns-native-macos" version="4.1.93.Final" classifier="osx-aarch_64"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.93.Final/netty-resolver-dns-native-macos-4.1.93.Final-osx-aarch_64.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.93.Final/netty-resolver-dns-native-macos-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.93.Final/netty-resolver-dns-native-macos-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-resolver-dns-native-macos" version="4.1.93.Final" classifier="osx-x86_64"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.93.Final/netty-resolver-dns-native-macos-4.1.93.Final-osx-x86_64.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.93.Final/netty-resolver-dns-native-macos-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.93.Final/netty-resolver-dns-native-macos-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-resolver-dns:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-resolver-dns" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.93.Final/netty-resolver-dns-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.93.Final/netty-resolver-dns-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.93.Final/netty-resolver-dns-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-resolver:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-resolver" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.93.Final/netty-resolver-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.93.Final/netty-resolver-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.93.Final/netty-resolver-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-classes-epoll:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-classes-epoll" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.93.Final/netty-transport-classes-epoll-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.93.Final/netty-transport-classes-epoll-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.93.Final/netty-transport-classes-epoll-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-classes-kqueue:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-classes-kqueue" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-kqueue/4.1.93.Final/netty-transport-classes-kqueue-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-kqueue/4.1.93.Final/netty-transport-classes-kqueue-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-kqueue/4.1.93.Final/netty-transport-classes-kqueue-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-native-epoll" version="4.1.93.Final" classifier="linux-aarch_64"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.93.Final/netty-transport-native-epoll-4.1.93.Final-linux-aarch_64.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.93.Final/netty-transport-native-epoll-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.93.Final/netty-transport-native-epoll-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-native-epoll" version="4.1.93.Final" classifier="linux-x86_64"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.93.Final/netty-transport-native-epoll-4.1.93.Final-linux-x86_64.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.93.Final/netty-transport-native-epoll-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.93.Final/netty-transport-native-epoll-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-native-kqueue:osx-aarch_64:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-native-kqueue" version="4.1.93.Final" classifier="osx-aarch_64"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.93.Final/netty-transport-native-kqueue-4.1.93.Final-osx-aarch_64.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.93.Final/netty-transport-native-kqueue-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.93.Final/netty-transport-native-kqueue-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-native-kqueue" version="4.1.93.Final" classifier="osx-x86_64"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.93.Final/netty-transport-native-kqueue-4.1.93.Final-osx-x86_64.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.93.Final/netty-transport-native-kqueue-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.93.Final/netty-transport-native-kqueue-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-native-unix-common" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.93.Final/netty-transport-native-unix-common-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.93.Final/netty-transport-native-unix-common-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.93.Final/netty-transport-native-unix-common-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-rxtx:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-rxtx" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-rxtx/4.1.93.Final/netty-transport-rxtx-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-rxtx/4.1.93.Final/netty-transport-rxtx-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-rxtx/4.1.93.Final/netty-transport-rxtx-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-sctp:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-sctp" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-sctp/4.1.93.Final/netty-transport-sctp-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-sctp/4.1.93.Final/netty-transport-sctp-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-sctp/4.1.93.Final/netty-transport-sctp-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport-udt:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport-udt" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-udt/4.1.93.Final/netty-transport-udt-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-udt/4.1.93.Final/netty-transport-udt-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-udt/4.1.93.Final/netty-transport-udt-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: io.netty:netty-transport:4.1.93.Final" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="io.netty" artifactId="netty-transport" version="4.1.93.Final"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.93.Final/netty-transport-4.1.93.Final.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.93.Final/netty-transport-4.1.93.Final-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.93.Final/netty-transport-4.1.93.Final-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-base:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-base" version="21"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-base:win:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-base" version="21" classifier="win"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-win.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-controls:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-controls" version="21"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-controls:win:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-controls" version="21" classifier="win"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-win.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-fxml:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-fxml" version="21"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-fxml:win:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-fxml" version="21" classifier="win"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-win.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-graphics:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-graphics" version="21"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.openjfx:javafx-graphics:win:21" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.openjfx" artifactId="javafx-graphics" version="21" classifier="win"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-win.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.scala-lang.modules:scala-java8-compat_3:1.0.0" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.scala-lang.modules" artifactId="scala-java8-compat_3" version="1.0.0"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.scala-lang:scala-library:2.13.10" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.scala-lang" artifactId="scala-library" version="2.13.10"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar!/"/> 
+      </SOURCES> 
+    </library>  
+    <library name="Maven: org.scala-lang:scala3-library_3:3.2.2" type="java-imported" external-system-id="Maven"> 
+      <properties groupId="org.scala-lang" artifactId="scala3-library_3" version="3.2.2"/>  
+      <CLASSES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar!/"/> 
+      </CLASSES>  
+      <JAVADOC> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2-javadoc.jar!/"/> 
+      </JAVADOC>  
+      <SOURCES> 
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2-sources.jar!/"/> 
+      </SOURCES> 
+    </library> 
+  </component> 
 </project>

@@ -72,7 +72,7 @@ public class MainApp extends Application {
                 return view;
 
             } catch (Exception e) {
-                return new View(new Label(e.getMessage(), e));
+                return new View(new Label(e.getMessage()));
             }
         });
     }
