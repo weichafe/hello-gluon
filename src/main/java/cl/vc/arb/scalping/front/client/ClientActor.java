@@ -69,9 +69,9 @@ public class ClientActor extends AbstractActor {
 
         if (message.getStatusStrategy().equals(GeneralStrategy.StatusStrategy.ADD_STRATEGY) ||
                 message.getStatusStrategy().equals(GeneralStrategy.StatusStrategy.UPDATE_STRATEGY)) {
-            Repository.getPrincipalController().strategiesDataController.loadStrategy(message.toBuilder());
+        //    Repository.getPrincipalController().strategiesDataController.loadStrategy(message.toBuilder());
         } else if (message.getStatusStrategy().equals(GeneralStrategy.StatusStrategy.REMOVE_STRATEGY)) {
-            Repository.getPrincipalController().strategiesDataController.removeStrategy(message.getStrategyId());
+        //    Repository.getPrincipalController().strategiesDataController.removeStrategy(message.getStrategyId());
         }
 
     }
@@ -134,8 +134,8 @@ public class ClientActor extends AbstractActor {
             }
 
             Platform.runLater(() -> {
-                Repository.getPrincipalController().strategiesDataController.strategiesObsListButton.clear();
-                Repository.getPrincipalController().strategiesDataController.mapStrategy.clear();
+             //   Repository.getPrincipalController().strategiesDataController.strategiesObsListButton.clear();
+             //   Repository.getPrincipalController().strategiesDataController.mapStrategy.clear();
             });
 
 
