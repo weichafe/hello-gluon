@@ -16,6 +16,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
+import java.io.IOException;
 import java.util.ResourceBundle;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
@@ -71,8 +72,12 @@ public class MainApp extends Application {
 
                 return view;
 
+            } catch (IOException e) {
+                return new View(new Label("Error de IO: " + e.getMessage()));
+            } catch (NullPointerException e) {
+                return new View(new Label("Error de NPE: " + e.getMessage()));
             } catch (Exception e) {
-                return new View(new Label(e.getMessage()));
+                return new View(new Label("Error desconocido: " + e.getMessage()));
             }
         });
     }
