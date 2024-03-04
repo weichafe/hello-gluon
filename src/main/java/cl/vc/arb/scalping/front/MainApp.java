@@ -65,7 +65,7 @@ public class MainApp extends Application {
                 view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
-                        appBar.setTitleText("Gluon Mobile");
+                        //appBar.setTitleText("Gluon Mobile");
                     }
                 };
 
