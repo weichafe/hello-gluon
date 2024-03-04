@@ -76,6 +76,8 @@ public class StrategiesDataController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        /*
+
         this.tcMarketData.setCellFactory(column -> new ButtonCellSubscribe("Subscribe", "Unsubscribe"));
         this.buy.setCellFactory(column -> new ButtonCellStartBuy("Start", "Stop"));
         this.sell.setCellFactory(column -> new ButtonCellStartSell("Start", "Stop"));
@@ -135,7 +137,7 @@ public class StrategiesDataController implements Initializable {
             }
         });
 
-
+*/
     }
 
 
