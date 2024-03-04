@@ -17,6 +17,8 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.ResourceBundle;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
@@ -72,12 +74,18 @@ public class MainApp extends Application {
 
                 return view;
 
-            } catch (IOException e) {
-                return new View(new Label("Error de IO: " + e.getMessage()));
-            } catch (NullPointerException e) {
-                return new View(new Label("Error de NPE: " + e.getMessage()));
             } catch (Exception e) {
-                return new View(new Label("Error desconocido: " + e.getMessage()));
+                StringWriter sw = new StringWriter();
+                PrintWriter pw = new PrintWriter(sw);
+                e.printStackTrace(pw);
+                String stackTrace = sw.toString(); // Aquí tienes toda la pila de llamadas como un String
+
+                // Ahora crea una etiqueta con el stackTrace y muéstralo en el View
+                Label errorLabel = new Label("Error de IO: " + stackTrace);
+                errorLabel.setWrapText(true); // Para asegurarte de que el texto se ajuste
+
+                // Añade el label a una nueva View
+                return new View(errorLabel);
             }
         });
     }
