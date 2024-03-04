@@ -1,13 +1,7 @@
 package cl.vc.arb.scalping.front.controller;
 
 import akka.actor.ActorRef;
-import akka.routing.RoundRobinPool;
-import cl.vc.arb.scalping.front.Repository;
-import cl.vc.arb.scalping.front.client.ClientActor;
 import cl.vc.arb.scalping.front.controller.notifications.NotificationsController;
-import cl.vc.arb.scalping.front.util.Notifier;
-import cl.vc.module.protocolbuff.notification.NotificationMessage;
-import cl.vc.module.protocolbuff.tcp.NettyProtobufClient;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
@@ -45,7 +39,7 @@ public class PrincipalController implements Initializable {
              */
 
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
