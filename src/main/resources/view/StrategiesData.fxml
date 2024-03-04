@@ -43,7 +43,7 @@
                 <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
                     <children>
 
-                        <TableView fx:id="tvStrategies" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                        <!--TableView fx:id="tvStrategies" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
 
                             <columns>
                                 <TableColumn fx:id="tcMarketData" maxWidth="100" minWidth="100" sortable="false" text="marketdata" />
@@ -69,7 +69,7 @@
                                 <TableColumn fx:id="round" minWidth="65" maxWidth="65" prefWidth="65" sortable="false" text="Round" />
 
                             </columns>
-                        </TableView>
+                        </TableView-->
                     </children>
                 </VBox>
 
