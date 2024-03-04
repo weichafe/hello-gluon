@@ -12,8 +12,8 @@ import java.util.ResourceBundle;
 public class PrincipalController implements Initializable {
 
     public static ActorRef client;
-    @FXML
-    public StrategiesDataController strategiesDataController;
+    //@FXML
+    //public StrategiesDataController strategiesDataController;
     @FXML
     public FooterController footerController;
 
