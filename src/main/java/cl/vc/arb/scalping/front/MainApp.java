@@ -78,9 +78,11 @@ public class MainApp extends Application {
                 StringWriter sw = new StringWriter();
                 PrintWriter pw = new PrintWriter(sw);
                 e.printStackTrace(pw);
-                String stackTrace = sw.toString(); // Aquí tienes toda la pila de llamadas como un String
+                String stackTrace = sw.toString();
 
-                // Ahora crea una etiqueta con el stackTrace y muéstralo en el View
+                System.out.println(stackTrace);
+
+
                 Label errorLabel = new Label("Error de IO: " + stackTrace);
                 errorLabel.setWrapText(true); // Para asegurarte de que el texto se ajuste
 
