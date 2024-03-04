@@ -3,7 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.layout.*?>
-<AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.vc.arb.scalping.front.controller.FooterController">
+<!--AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.vc.arb.scalping.front.controller.FooterController"-->
+<AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" >
     <children>
         <HBox maxHeight="100" maxWidth="-Infinity" styleClass="black-hbox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
@@ -19,7 +20,7 @@
                     <children>
                         <HBox alignment="CENTER_RIGHT" spacing="20" HBox.hgrow="ALWAYS">
                             <children>
-                                <CheckBox fx:id="hideHead" prefHeight="25.0" text="Hide Head" textFill="WHITE" />
+                                <!--CheckBox fx:id="hideHead" prefHeight="25.0" text="Hide Head" textFill="WHITE" /-->
                             </children>
                         </HBox>
                     </children>
