@@ -26,8 +26,8 @@ public class FooterController implements Initializable {
             @Override
             public void handle(MouseEvent event) {
                 boolean isChecked = hideHead.isSelected();
-                Repository.getPrincipalController().strategiesDataController.hideHead.setVisible(!isChecked);
-                Repository.getPrincipalController().strategiesDataController.hideHead.setManaged(!isChecked);
+              //  Repository.getPrincipalController().strategiesDataController.hideHead.setVisible(!isChecked);
+             //  Repository.getPrincipalController().strategiesDataController.hideHead.setManaged(!isChecked);
             }
         });
 
