@@ -140,7 +140,7 @@ public class ClientActor extends AbstractActor {
 
 
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
