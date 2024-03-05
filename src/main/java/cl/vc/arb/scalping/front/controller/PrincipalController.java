@@ -18,8 +18,6 @@ public class PrincipalController implements Initializable {
 
 //    private NotificationsController notificationsController;
 
-    @FXML
-    private Label label;
 
     public PrincipalController() {
 
@@ -30,7 +28,7 @@ public class PrincipalController implements Initializable {
 
         try {
 
-            label.setText("fsfdfdsfdsfd");
+
               /*
             Repository.setPrincipalController(this);
             Notifier.startNotification();

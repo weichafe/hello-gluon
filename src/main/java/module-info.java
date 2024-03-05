@@ -14,7 +14,6 @@ module scalping {
     requires com.gluonhq.charm.glisten;
 
 
-    opens cl.vc.arb.scalping.front.client to akka.actor;
     opens cl.vc.arb.scalping.front.controller to javafx.fxml;
     opens cl.vc.arb.scalping.front to javafx.fxml;
 
