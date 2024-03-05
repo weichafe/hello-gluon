@@ -1,9 +1,8 @@
 package cl.vc.arb.scalping.front.controller;
 
-import akka.actor.ActorRef;
-import cl.vc.arb.scalping.front.controller.notifications.NotificationsController;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -11,13 +10,15 @@ import java.util.ResourceBundle;
 
 public class PrincipalController implements Initializable {
 
-    public static ActorRef client;
+   // public static ActorRef client;
     //@FXML
     //public StrategiesDataController strategiesDataController;
-    @FXML
-    public FooterController footerController;
+    //@FXML
+    //public FooterController footerController;
 
-    private NotificationsController notificationsController;
+//    private NotificationsController notificationsController;
+
+    private Label label;
 
     public PrincipalController() {
 
@@ -27,6 +28,8 @@ public class PrincipalController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         try {
+
+            label.setText("fsfdfdsfdsfd");
               /*
             Repository.setPrincipalController(this);
             Notifier.startNotification();
