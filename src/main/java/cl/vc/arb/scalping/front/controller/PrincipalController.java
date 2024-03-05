@@ -18,6 +18,7 @@ public class PrincipalController implements Initializable {
 
 //    private NotificationsController notificationsController;
 
+    @FXML
     private Label label;
 
     public PrincipalController() {
