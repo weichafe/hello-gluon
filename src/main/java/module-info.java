@@ -11,6 +11,7 @@ module scalping {
     requires protobuf.java;
     requires com.gluonhq.attach.storage;
     requires javafx.graphics;
+    requires java.base;
 
 
     opens cl.vc.arb.scalping.front.client to akka.actor;
