@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4332a5b5-5788-48f2-9dc3-a56bf56895b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +244,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{ &quot;keyToString&quot;: { &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;, &quot;Application.cl.MainApp.executor&quot;: &quot;Debug&quot;, &quot;Maven.hellogluon [clean].executor&quot;: &quot;Run&quot;, &quot;Maven.hellogluon [compile].executor&quot;: &quot;Run&quot;, &quot;Maven.hellogluon [package].executor&quot;: &quot;Run&quot;, &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;, &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;, &quot;kotlin-language-version-configured&quot;: &quot;true&quot; } }</component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.cl.MainApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.hellogluon [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hellogluon [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hellogluon [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -427,5 +437,16 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cl/PrincipalController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
