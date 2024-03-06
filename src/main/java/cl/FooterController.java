@@ -1,6 +1,5 @@
-package cl.vc.arb.scalping.front.controller;
+package cl;
 
-import cl.vc.arb.scalping.front.Repository;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

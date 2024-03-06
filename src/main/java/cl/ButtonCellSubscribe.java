@@ -1,7 +1,7 @@
-package cl.vc.arb.scalping.front.controller.button;
+package cl;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
-import cl.vc.arb.scalping.front.Repository;
+import cl.Repository;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,18 +9,40 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 
 
-public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
+public class ButtonCellSubscribe extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
 
-    final Button cellButtonStart = new Button();
-    final Button cellButtonStop = new Button();
+    final Button cellButtonSubscribe = new Button();
+    final Button cellButtonUnsubscribe = new Button();
+    private boolean disable;
 
-    public ButtonCellStartSell(String start, String stop) {
-
+    public ButtonCellSubscribe(String subscribe, String unsubscribe) {
         try {
-            this.cellButtonStart.setText(start);
-            this.cellButtonStart.setPrefWidth(80);
-            this.cellButtonStart.getStyleClass().add("button-start");
-            this.cellButtonStart.setOnAction(new EventHandler<ActionEvent>() {
+            cellButtonSubscribe.setText(subscribe);
+            cellButtonSubscribe.setPrefWidth(120);
+
+            cellButtonSubscribe.setOnAction(new EventHandler<ActionEvent>() {
+
+                @Override
+                public void handle(ActionEvent t) {
+
+                    ScalpingStrategyProtos.ScalpingStrategy.Builder strategyView = (ScalpingStrategyProtos.ScalpingStrategy.Builder) getTableRow().getItem();
+
+                    GeneralStrategy.OperationsControl operationsControl =
+                            GeneralStrategy.OperationsControl
+                                    .newBuilder()
+                                    .setStrategyId(strategyView.getStrategyId())
+                                    .setUsername(Repository.getUsername())
+                                    .setTimestamp(System.currentTimeMillis())
+                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.SUBSCRIBE).build();
+
+                    Repository.getNettyProtobufClient().sendMessage(operationsControl);
+                }
+            });
+
+            cellButtonUnsubscribe.setText(unsubscribe);
+            cellButtonUnsubscribe.setPrefWidth(120);
+
+            cellButtonUnsubscribe.setOnAction(new EventHandler<ActionEvent>() {
 
                 @Override
                 public void handle(ActionEvent t) {
@@ -31,31 +53,11 @@ public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.Scalpi
                                     .setStrategyId(strategyView.getStrategyId())
                                     .setUsername(Repository.getUsername())
                                     .setTimestamp(System.currentTimeMillis())
-                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.START_FLOWBACK).build();
-                    Repository.getNettyProtobufClient().sendMessage(operationsControl);
+                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.UNSUBSCRIBE).build();
 
-                }
-            });
-
-            this.cellButtonStop.setText(stop);
-            this.cellButtonStop.setPrefWidth(80);
-            this.cellButtonStop.getStyleClass().add("button-stop");
-            this.cellButtonStop.setOnAction(new EventHandler<ActionEvent>() {
-
-                @Override
-                public void handle(ActionEvent t) {
-                    ScalpingStrategyProtos.ScalpingStrategy.Builder strategyView = (ScalpingStrategyProtos.ScalpingStrategy.Builder) getTableRow().getItem();
-                    GeneralStrategy.OperationsControl operationsControl =
-                            GeneralStrategy.OperationsControl
-                                    .newBuilder()
-                                    .setStrategyId(strategyView.getStrategyId())
-                                    .setUsername(Repository.getUsername())
-                                    .setTimestamp(System.currentTimeMillis())
-                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.STOP_FLOWBACK).build();
                     Repository.getNettyProtobufClient().sendMessage(operationsControl);
                 }
             });
-
         } catch (Exception e) {
 
         }
@@ -69,18 +71,18 @@ public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.Scalpi
             ScalpingStrategyProtos.ScalpingStrategy.Builder strategyView = (ScalpingStrategyProtos.ScalpingStrategy.Builder) getTableView().getItems().get(getIndex());
 
 
-            if (strategyView.getScalpingStrategyStatus().getSubscribed()) {
-                cellButtonStop.setDisable(false);
-                cellButtonStart.setDisable(false);
+            if (strategyView.getScalpingStrategyStatus().getStartBuy() || strategyView.getScalpingStrategyStatus().getStartSell()) {
+                this.cellButtonSubscribe.setDisable(true);
+                this.cellButtonUnsubscribe.setDisable(true);
             } else {
-                cellButtonStop.setDisable(true);
-                cellButtonStart.setDisable(true);
+                this.cellButtonSubscribe.setDisable(false);
+                this.cellButtonUnsubscribe.setDisable(false);
             }
 
-            if (strategyView.getScalpingStrategyStatus().getStartSell()) {
-                setGraphic(this.cellButtonStop);
+            if (strategyView.getScalpingStrategyStatus().getSubscribed()) {
+                setGraphic(cellButtonUnsubscribe);
             } else {
-                setGraphic(this.cellButtonStart);
+                setGraphic(cellButtonSubscribe);
             }
 
             setAlignment(javafx.geometry.Pos.CENTER);
@@ -89,5 +91,4 @@ public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.Scalpi
             setGraphic(null);
         }
     }
-
 }

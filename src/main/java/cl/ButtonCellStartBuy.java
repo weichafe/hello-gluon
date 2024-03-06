@@ -1,7 +1,7 @@
-package cl.vc.arb.scalping.front.controller.button;
+package cl;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
-import cl.vc.arb.scalping.front.Repository;
+import cl.Repository;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

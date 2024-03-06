@@ -1,14 +1,8 @@
-package cl.vc.arb.scalping.front.controller;
+package cl;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
-import cl.vc.arb.scalping.front.Repository;
-import cl.vc.arb.scalping.front.controller.button.ButtonCellStartBuy;
-import cl.vc.arb.scalping.front.controller.button.ButtonCellStartSell;
-import cl.vc.arb.scalping.front.controller.button.ButtonCellSubscribe;
-import cl.vc.arb.scalping.front.controller.notifications.NotificationsController;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import javafx.application.Platform;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -19,9 +13,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.input.MouseButton;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;

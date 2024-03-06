@@ -1,6 +1,6 @@
-package cl.vc.arb.scalping.front.util;
+package cl;
 
-import cl.vc.arb.scalping.front.Repository;
+import cl.Repository;
 import javafx.application.Platform;
 
 import java.awt.*;

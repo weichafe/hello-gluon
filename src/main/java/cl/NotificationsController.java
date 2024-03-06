@@ -1,4 +1,4 @@
-package cl.vc.arb.scalping.front.controller.notifications;
+package cl;
 
 import cl.vc.module.protocolbuff.notification.NotificationMessage;
 import javafx.beans.property.SimpleObjectProperty;

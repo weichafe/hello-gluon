@@ -1,8 +1,6 @@
-package cl.vc.arb.scalping.front.controller;
+package cl;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
-import cl.vc.arb.scalping.front.Repository;
-import cl.vc.arb.scalping.front.util.Notifier;
 import cl.vc.module.protocolbuff.IDGenerator;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import cl.vc.module.protocolbuff.mkd.MarketDataMessage;

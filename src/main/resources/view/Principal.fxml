@@ -8,7 +8,7 @@
 			AnchorPane.topAnchor="0.0"
 			HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS"
 			xmlns:fx="http://javafx.com/fxml/1"
-			fx:controller="cl.vc.arb.scalping.front.controller.PrincipalController">
+			fx:controller="cl.PrincipalController">
 
 	<children>
 		<VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"

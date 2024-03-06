@@ -1,4 +1,4 @@
-package cl.vc.arb.scalping.front;
+package cl;
 
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
@@ -12,15 +12,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.util.ResourceBundle;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
@@ -81,15 +77,9 @@ public class MainApp extends Application {
                 e.printStackTrace(pw);
                 String stackTrace = sw.toString();
 
-
                 System.out.println(stackTrace);
 
-
                 TextArea textArea = new TextArea(stackTrace);
-
-
-
-                // Añade el label a una nueva View
                 return new View(textArea);
             }
         });
