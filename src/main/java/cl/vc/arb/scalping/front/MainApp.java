@@ -7,13 +7,12 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.ResourceBundle;
 
-public class HelloFXML extends Application {
+public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        AnchorPane root = FXMLLoader.load(HelloFXML.class.getResource("/hellofx/hello.fxml"));
+        AnchorPane root = FXMLLoader.load(MainApp.class.getResource("/hellofx/hello.fxml"));
         Scene scene = new Scene(root, 640, 480);
         stage.setScene(scene);
         stage.show();

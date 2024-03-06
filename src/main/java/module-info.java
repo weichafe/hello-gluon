@@ -9,7 +9,7 @@ module scalping {
     requires module.v1;
     requires com.gluonhq.attach.storage;
     requires javafx.graphics;
-    requires java.base;
+    requires javafx.base;
 
     opens cl.vc.arb.scalping.front.controller to javafx.fxml;
 
