@@ -344,7 +344,7 @@ public class StrategiesDataController implements Initializable {
     private void showStrategyManteiner(ScalpingStrategyProtos.ScalpingStrategy.Builder strategyView, boolean clonar) {
         try {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/Strategy.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/cl/Strategy.fxml"));
             Parent parent;
             parent = fxmlLoader.load();
             StrategyController strategyController = fxmlLoader.getController();
@@ -489,7 +489,7 @@ public class StrategiesDataController implements Initializable {
 
         try {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/Notifications.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/cl/Notifications.fxml"));
             Parent parent;
             parent = fxmlLoader.load();
             NotificationsController notificationsController = fxmlLoader.getController();

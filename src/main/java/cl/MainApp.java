@@ -36,7 +36,7 @@ public class MainApp extends Application {
 
             try {
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl/Principal.fxml"));
                 PrincipalController principalController = new PrincipalController();
                 loader.setController(principalController);
 
