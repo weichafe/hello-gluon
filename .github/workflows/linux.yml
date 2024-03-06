@@ -2,7 +2,7 @@ name: Linux
 
 on:
   push:
-    branches: [ main ]
+    branches: [ v1.1 ]
 
 jobs:
   build:
