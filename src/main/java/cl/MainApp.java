@@ -1,6 +1,5 @@
 package cl;
 
-import cl.controller.PrincipalController;
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
@@ -37,7 +36,7 @@ public class MainApp extends Application {
 
             try {
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl/Principal.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl/controller/Principal.fxml"));
                 Parent root = loader.load();
                 Scene scene = new Scene(root);
                 Stage ventanaApp = new Stage();

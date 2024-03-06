@@ -14,7 +14,7 @@ module scalping {
     requires com.gluonhq.charm.glisten;
 
     opens cl to javafx.fxml;
-    exports cl;
     opens cl.controller to javafx.fxml;
     exports cl.controller;
+    exports cl;
 }
