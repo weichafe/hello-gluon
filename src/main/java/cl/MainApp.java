@@ -38,9 +38,6 @@ public class MainApp extends Application {
             try {
 
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl/Principal.fxml"));
-                PrincipalController principalController = new PrincipalController();
-                loader.setController(principalController);
-
                 Parent root = loader.load();
                 Scene scene = new Scene(root);
                 Stage ventanaApp = new Stage();

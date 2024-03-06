@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/conexions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/docknode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/excel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/prod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sound.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/Footer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/Splash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Notifications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/Notifications.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
