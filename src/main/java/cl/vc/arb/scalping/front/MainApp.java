@@ -42,7 +42,7 @@ public class MainApp extends Application {
 
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"));
                 Parent  root = loader.load();
-                loader.getController();
+                //loader.getController();
                 Scene scene = new Scene(root);
                 Stage ventanaApp = new Stage();
                 ventanaApp.setResizable(true);
