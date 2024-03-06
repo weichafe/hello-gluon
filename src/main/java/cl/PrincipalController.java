@@ -18,10 +18,12 @@ public class PrincipalController implements Initializable {
 
 //    private NotificationsController notificationsController;
 
+    @FXML
+    private Label label;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        label.setText("saddassadadsads");
               /*
             Repository.setPrincipalController(this);
             Notifier.startNotification();

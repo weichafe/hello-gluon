@@ -36,15 +36,11 @@ public class MainApp extends Application {
 
             try {
 
-
-                PrincipalController principalController = new PrincipalController();
-
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"));
-                Parent  root = loader.load();
+                PrincipalController principalController = new PrincipalController();
+                loader.setController(principalController);
 
-
-
-                //loader.getController();
+                Parent root = loader.load();
                 Scene scene = new Scene(root);
                 Stage ventanaApp = new Stage();
                 ventanaApp.setResizable(true);
