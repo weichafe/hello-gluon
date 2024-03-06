@@ -7,15 +7,11 @@ module scalping {
     requires java.datatransfer;
     requires java.desktop;
     requires module.v1;
-    requires protobuf.java;
     requires com.gluonhq.attach.storage;
     requires javafx.graphics;
     requires java.base;
-    requires com.gluonhq.charm.glisten;
-
 
     opens cl.vc.arb.scalping.front.controller to javafx.fxml;
-    opens cl.vc.arb.scalping.front to javafx.fxml;
 
-    exports cl.vc.arb.scalping.front;
+    exports cl.vc.arb.scalping.front.controller;
 }

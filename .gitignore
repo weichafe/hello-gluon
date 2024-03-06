@@ -1,6 +1,8 @@
 # Maven
 target/
-
+hellogluon.iml
+hellogluon.ipr
+hellogluon.iws
 # IntelliJ IDEA
 .idea/
 *.iml
