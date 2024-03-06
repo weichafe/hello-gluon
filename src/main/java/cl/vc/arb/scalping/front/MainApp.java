@@ -1,4 +1,4 @@
-package cl.vc.arb.scalping.front.controller;
+package cl.vc.arb.scalping.front;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
