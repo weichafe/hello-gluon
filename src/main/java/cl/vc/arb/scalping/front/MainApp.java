@@ -4,6 +4,7 @@ import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
 import com.gluonhq.charm.glisten.control.AppBar;
+import com.gluonhq.charm.glisten.control.TextArea;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -80,14 +81,16 @@ public class MainApp extends Application {
                 e.printStackTrace(pw);
                 String stackTrace = sw.toString();
 
+
                 System.out.println(stackTrace);
 
 
-                Label errorLabel = new Label("Error de IO: " + stackTrace);
-                errorLabel.setWrapText(true); // Para asegurarte de que el texto se ajuste
+                TextArea textArea = new TextArea(stackTrace);
+
+
 
                 // Añade el label a una nueva View
-                return new View(errorLabel);
+                return new View(textArea);
             }
         });
     }
