@@ -19,15 +19,8 @@ public class PrincipalController implements Initializable {
 //    private NotificationsController notificationsController;
 
 
-    public PrincipalController() {
-
-    }
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
-        try {
-
 
               /*
             Repository.setPrincipalController(this);
@@ -40,9 +33,6 @@ public class PrincipalController implements Initializable {
 
              */
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
 }

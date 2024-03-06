@@ -37,8 +37,13 @@ public class MainApp extends Application {
             try {
 
 
+                PrincipalController principalController = new PrincipalController();
+
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"));
                 Parent  root = loader.load();
+
+
+
                 //loader.getController();
                 Scene scene = new Scene(root);
                 Stage ventanaApp = new Stage();
@@ -80,6 +85,7 @@ public class MainApp extends Application {
                 System.out.println(stackTrace);
 
                 TextArea textArea = new TextArea(stackTrace);
+                textArea.setMinHeight(450);
                 return new View(textArea);
             }
         });
