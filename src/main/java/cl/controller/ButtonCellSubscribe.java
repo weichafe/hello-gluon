@@ -1,4 +1,4 @@
-package cl;
+package cl.controller;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
 import cl.Repository;

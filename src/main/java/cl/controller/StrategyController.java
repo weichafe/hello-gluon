@@ -1,5 +1,7 @@
-package cl;
+package cl.controller;
 
+import cl.Notifier;
+import cl.Repository;
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
 import cl.vc.module.protocolbuff.IDGenerator;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;

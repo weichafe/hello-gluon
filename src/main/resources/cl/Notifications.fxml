@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <AnchorPane stylesheets="@../css/SimpleTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="cl.NotificationsController">
+            fx:controller="cl.controller.NotificationsController">
    <children>
       <VBox id="vboxNotifications" fx:id="vboxNotifications" alignment="CENTER"
             layoutX="10.0" layoutY="10.0" spacing="10.0" AnchorPane.bottomAnchor="0.0"

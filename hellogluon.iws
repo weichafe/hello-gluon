@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/conexions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/docknode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/prod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/Footer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/Splash.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,18 +268,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.cl.MainApp.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.hellogluon [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.hellogluon [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.hellogluon [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Debug",
+    "Application.cl.MainApp.executor": "Debug",
+    "Maven.hellogluon [clean].executor": "Run",
+    "Maven.hellogluon [compile].executor": "Run",
+    "Maven.hellogluon [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/ResearchAndoid/hello-gluon/src/main/resources"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ResearchAndoid\hello-gluon\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -447,16 +478,5 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cl/PrincipalController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

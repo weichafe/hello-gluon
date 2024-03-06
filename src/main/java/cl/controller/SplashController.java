@@ -1,4 +1,4 @@
-package cl;
+package cl.controller;
 
 import akka.actor.ActorSystem;
 import javafx.fxml.FXML;

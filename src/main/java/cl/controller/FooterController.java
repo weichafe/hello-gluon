@@ -1,4 +1,4 @@
-package cl;
+package cl.controller;
 
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;

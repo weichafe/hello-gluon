@@ -1,5 +1,6 @@
 package cl;
 
+import cl.controller.PrincipalController;
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
@@ -77,11 +78,9 @@ public class MainApp extends Application {
                 PrintWriter pw = new PrintWriter(sw);
                 e.printStackTrace(pw);
                 String stackTrace = sw.toString();
-
                 System.out.println(stackTrace);
-
                 TextArea textArea = new TextArea(stackTrace);
-                textArea.setMinHeight(450);
+                textArea.setMinHeight(850);
                 return new View(textArea);
             }
         });

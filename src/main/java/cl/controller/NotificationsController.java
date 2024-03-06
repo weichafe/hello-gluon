@@ -1,4 +1,4 @@
-package cl;
+package cl.controller;
 
 import cl.vc.module.protocolbuff.notification.NotificationMessage;
 import javafx.beans.property.SimpleObjectProperty;

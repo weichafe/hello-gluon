@@ -15,4 +15,6 @@ module scalping {
 
     opens cl to javafx.fxml;
     exports cl;
+    opens cl.controller to javafx.fxml;
+    exports cl.controller;
 }

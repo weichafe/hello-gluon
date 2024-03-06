@@ -1,4 +1,4 @@
-package cl;
+package cl.controller;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
 import cl.Repository;
@@ -8,13 +8,12 @@ import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 
-
-public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
+public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
 
     final Button cellButtonStart = new Button();
     final Button cellButtonStop = new Button();
 
-    public ButtonCellStartSell(String start, String stop) {
+    public ButtonCellStartBuy(String start, String stop) {
 
         try {
             this.cellButtonStart.setText(start);
@@ -31,7 +30,7 @@ public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.Scalpi
                                     .setStrategyId(strategyView.getStrategyId())
                                     .setUsername(Repository.getUsername())
                                     .setTimestamp(System.currentTimeMillis())
-                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.START_FLOWBACK).build();
+                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.START_INFLOW).build();
                     Repository.getNettyProtobufClient().sendMessage(operationsControl);
 
                 }
@@ -51,7 +50,7 @@ public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.Scalpi
                                     .setStrategyId(strategyView.getStrategyId())
                                     .setUsername(Repository.getUsername())
                                     .setTimestamp(System.currentTimeMillis())
-                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.STOP_FLOWBACK).build();
+                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.STOP_INFLOW).build();
                     Repository.getNettyProtobufClient().sendMessage(operationsControl);
                 }
             });
@@ -77,7 +76,7 @@ public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.Scalpi
                 cellButtonStart.setDisable(true);
             }
 
-            if (strategyView.getScalpingStrategyStatus().getStartSell()) {
+            if (strategyView.getScalpingStrategyStatus().getStartBuy()) {
                 setGraphic(this.cellButtonStop);
             } else {
                 setGraphic(this.cellButtonStart);
