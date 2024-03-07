@@ -1,7 +1,5 @@
 package front.controller;
 
-import front.Notifier;
-import front.Repository;
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
 import cl.vc.module.protocolbuff.IDGenerator;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;

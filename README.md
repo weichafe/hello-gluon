@@ -1,6 +1,9 @@
 
 # HelloGluon CI
 
+
+--module-path "E:\Repository\javafx-sdk-21.0.2\lib" --add-modules javafx.controls,javafx.fxml
+
 This sample shows how to automatically build a Gluon Application using Github Actions.
 
 It uses a version of [HelloGluon](https://github.com/gluonhq/gluon-samples/tree/master/HelloGluon), a Hello World application with Java 11+, JavaFX 15+, Gluon Mobile and GraalVM.

@@ -1,7 +1,6 @@
 package front.controller;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
-import front.Repository;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

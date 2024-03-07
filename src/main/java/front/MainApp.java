@@ -8,14 +8,13 @@ import com.gluonhq.charm.glisten.control.AppBar;
 import com.gluonhq.charm.glisten.control.TextArea;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
 
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
@@ -28,10 +27,11 @@ public class MainApp extends Application {
 
     public static Stage primaryStage;
 
+    private Parent root;
+
     @Override
     public void init() {
         appManager.addViewFactory(HOME_VIEW, () -> {
-
 
             View view = null;
 
@@ -67,7 +67,7 @@ public class MainApp extends Application {
                 view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
-                        //appBar.setTitleText("Gluon Mobile");
+                        appBar.setTitleText("Gluon Mobile");
                     }
                 };
 
@@ -78,11 +78,9 @@ public class MainApp extends Application {
                 PrintWriter pw = new PrintWriter(sw);
                 e.printStackTrace(pw);
                 String stackTrace = sw.toString();
-
                 System.out.println(stackTrace);
-
                 TextArea textArea = new TextArea(stackTrace);
-                textArea.setMinHeight(450);
+                textArea.setMinHeight(850);
                 return new View(textArea);
             }
         });
@@ -102,8 +100,13 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) {
-        primaryStage = stage;
-        appManager.start(stage);
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl/controller/Principal.fxml"));
+            root = loader.load();
+            appManager.start(stage);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void main(String[] args) {

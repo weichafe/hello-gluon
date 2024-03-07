@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4332a5b5-5788-48f2-9dc3-a56bf56895b9" name="Changes" comment="">
+    <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/ButtonCellStartBuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/ButtonCellStartBuy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/ButtonCellStartSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/ButtonCellStartSell.java" afterDir="false" />
@@ -26,6 +27,51 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Splash.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/StrategiesData.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Strategy.fxml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellStartBuy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellStartSell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellSubscribe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Footer.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/FooterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Notifications.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/NotificationsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Splash.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/SplashController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategiesData.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategiesDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Strategy.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/conexions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/docknode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/excel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/prod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" beforeDir="false" />
+>>>>>>> 79682d5594d8e05e3357c89b93ad4e30ffb8a988
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,18 +309,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.cl.MainApp.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.hellogluon [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.hellogluon [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.hellogluon [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Debug",
+    "Application.cl.MainApp.executor": "Debug",
+    "Maven.hellogluon [clean].executor": "Run",
+    "Maven.hellogluon [compile].executor": "Run",
+    "Maven.hellogluon [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/ResearchAndoid/hello-gluon/src/main/resources"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ResearchAndoid\hello-gluon\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ResearchAndoid\hello-gluon\src\main\resources\cl\controller" />
+      <recent name="E:\ResearchAndoid\hello-gluon\src\main\java\cl\controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cl" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -405,6 +464,28 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="5" />
     </layout>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
       <option name="COMMENT" value="" />
@@ -461,9 +542,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/src/main/java/front/controller/PrincipalController.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/cl/MainApp.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+>>>>>>> 79682d5594d8e05e3357c89b93ad4e30ffb8a988
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
