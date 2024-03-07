@@ -37,6 +37,9 @@ public class MainApp extends Application {
 
             try {
 
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/Principal.fxml"));
+                root = loader.load();
+
                 view = new View(root) {
                     @Override
                     protected void updateAppBar(AppBar appBar) {
@@ -74,8 +77,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/Principal.fxml"));
-            root = loader.load();
+
             appManager.start(stage);
         } catch (IOException e) {
             throw new RuntimeException(e);
