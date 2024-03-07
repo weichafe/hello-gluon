@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1582d51a-b91e-4bb9-a5d4-2cb839d993c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl.controller/Principal.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,6 +388,17 @@
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="3" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="5" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>

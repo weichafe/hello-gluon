@@ -4,6 +4,7 @@ package cl;
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
+import com.gluonhq.charm.glisten.control.TextArea;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,6 +12,9 @@ import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.io.PrintWriter;
+import java.io.StringWriter;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
@@ -29,8 +33,16 @@ public class MainApp extends Application {
         appManager.addViewFactory(HOME_VIEW, () -> {
             try {
                 return (View)FXMLLoader.load(getClass().getResource("/cl/home.fxml"));
-            } catch (Exception ex) { }
-            return null;
+            } catch (Exception ex) {
+                StringWriter sw = new StringWriter();
+                PrintWriter pw = new PrintWriter(sw);
+                ex.printStackTrace(pw);
+                String stackTrace = sw.toString();
+                System.out.println(stackTrace);
+                TextArea textArea = new TextArea(stackTrace);
+                textArea.setMinHeight(450);
+                return new View(textArea);
+            }
         });
 
 
