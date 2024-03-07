@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="" />
+    <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellStartBuy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellStartSell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellSubscribe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Footer.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/FooterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Notifications.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/NotificationsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Splash.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/SplashController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategiesData.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategiesDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/Strategy.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/SimpleTheme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/scalping.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/splash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/conexions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/desarrollo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/docknode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/excel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/icono.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/mail_7500726.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/prod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sobre5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/new.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/red-alert.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/rejected.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sound/trade.mp3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,6 +305,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ResearchAndoid\hello-gluon\src\main\resources\cl\controller" />
+      <recent name="E:\ResearchAndoid\hello-gluon\src\main\java\cl\controller" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cl" />
@@ -395,6 +441,17 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="5" />
     </layout>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -457,5 +514,16 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cl/MainApp.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
