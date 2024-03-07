@@ -7,6 +7,25 @@
     <list default="true" id="4332a5b5-5788-48f2-9dc3-a56bf56895b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/ButtonCellStartBuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/ButtonCellStartBuy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/ButtonCellStartSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/ButtonCellStartSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/ButtonCellSubscribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/ButtonCellSubscribe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/FooterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/FooterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/NotificationsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Notifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/Notifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/SplashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/SplashController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/StrategiesDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/StrategiesDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/StrategyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/front/controller/StrategyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Footer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Notifications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Notifications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Splash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/StrategiesData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/StrategiesData.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Strategy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl.controller/Strategy.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -442,7 +461,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cl/PrincipalController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/front/controller/PrincipalController.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

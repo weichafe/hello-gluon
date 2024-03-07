@@ -1,4 +1,4 @@
-package cl;
+package front.controller;
 
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;

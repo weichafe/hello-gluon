@@ -1,19 +1,20 @@
-package cl;
+package front.controller;
 
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
-import cl.Repository;
+import front.Repository;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 
-public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
+
+public class ButtonCellStartSell extends TableCell<ScalpingStrategyProtos.ScalpingStrategy.Builder, Boolean> {
 
     final Button cellButtonStart = new Button();
     final Button cellButtonStop = new Button();
 
-    public ButtonCellStartBuy(String start, String stop) {
+    public ButtonCellStartSell(String start, String stop) {
 
         try {
             this.cellButtonStart.setText(start);
@@ -30,7 +31,7 @@ public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.Scalpin
                                     .setStrategyId(strategyView.getStrategyId())
                                     .setUsername(Repository.getUsername())
                                     .setTimestamp(System.currentTimeMillis())
-                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.START_INFLOW).build();
+                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.START_FLOWBACK).build();
                     Repository.getNettyProtobufClient().sendMessage(operationsControl);
 
                 }
@@ -50,7 +51,7 @@ public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.Scalpin
                                     .setStrategyId(strategyView.getStrategyId())
                                     .setUsername(Repository.getUsername())
                                     .setTimestamp(System.currentTimeMillis())
-                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.STOP_INFLOW).build();
+                                    .setOperationControl(GeneralStrategy.OperationsControlEnum.STOP_FLOWBACK).build();
                     Repository.getNettyProtobufClient().sendMessage(operationsControl);
                 }
             });
@@ -76,7 +77,7 @@ public class ButtonCellStartBuy extends TableCell<ScalpingStrategyProtos.Scalpin
                 cellButtonStart.setDisable(true);
             }
 
-            if (strategyView.getScalpingStrategyStatus().getStartBuy()) {
+            if (strategyView.getScalpingStrategyStatus().getStartSell()) {
                 setGraphic(this.cellButtonStop);
             } else {
                 setGraphic(this.cellButtonStart);

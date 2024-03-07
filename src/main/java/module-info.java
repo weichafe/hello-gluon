@@ -13,6 +13,8 @@ module scalping {
     requires java.base;
     requires com.gluonhq.charm.glisten;
 
-    opens cl to javafx.fxml;
-    exports cl;
+    opens front to javafx.fxml;
+    exports front;
+    exports front.controller;
+    opens front.controller to javafx.fxml;
 }

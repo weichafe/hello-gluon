@@ -1,5 +1,6 @@
-package cl;
+package front.controller;
 
+import front.Repository;
 import cl.vc.algos.scalping.proto.ScalpingStrategyProtos;
 import cl.vc.module.protocolbuff.generalstrategy.GeneralStrategy;
 import javafx.application.Platform;
@@ -344,7 +345,7 @@ public class StrategiesDataController implements Initializable {
     private void showStrategyManteiner(ScalpingStrategyProtos.ScalpingStrategy.Builder strategyView, boolean clonar) {
         try {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/Strategy.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/cl.controller/Strategy.fxml"));
             Parent parent;
             parent = fxmlLoader.load();
             StrategyController strategyController = fxmlLoader.getController();
@@ -489,7 +490,7 @@ public class StrategiesDataController implements Initializable {
 
         try {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/Notifications.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/cl.controller/Notifications.fxml"));
             Parent parent;
             parent = fxmlLoader.load();
             NotificationsController notificationsController = fxmlLoader.getController();

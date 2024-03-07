@@ -1,5 +1,6 @@
-package cl;
+package front;
 
+import front.controller.PrincipalController;
 import cl.vc.module.protocolbuff.notification.NotificationMessage;
 import cl.vc.module.protocolbuff.tcp.NettyProtobufClient;
 import java.awt.*;

@@ -18,7 +18,7 @@
         <connect.version>2.0.1</connect.version>
         <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
         <gluonfx.maven.plugin.version>1.0.22</gluonfx.maven.plugin.version>
-        <main.class>cl.MainApp</main.class>
+        <main.class>front.MainApp</main.class>
         <app.identifier>${main.class}</app.identifier>
         <app.description>The HelloGluon app</app.description>
         <package.type/>
@@ -98,11 +98,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-
-
-
-
     </dependencies>
 
     <repositories>
@@ -150,7 +145,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>cl.MainApp</mainClass>
+                            <mainClass>front.MainApp</mainClass>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                             <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                         </manifest>
@@ -252,7 +247,7 @@
             <id>android</id>
             <properties>
                 <gluonfx.target>android</gluonfx.target>
-                <app.identifier>cl.MainApp</app.identifier>
+                <app.identifier>front.MainApp</app.identifier>
                 <version.code>${env.GITHUB_RUN_NUMBER}</version.code>
                 <provided.keystore.path>${env.GLUON_ANDROID_KEYSTOREPATH}</provided.keystore.path>
                 <provided.keystore.password>${env.GLUON_ANDROID_KEYSTORE_PASSWORD}</provided.keystore.password>

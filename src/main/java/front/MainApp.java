@@ -1,5 +1,6 @@
-package cl;
+package front;
 
+import front.controller.PrincipalController;
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
@@ -36,7 +37,7 @@ public class MainApp extends Application {
 
             try {
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Principal.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/Principal.fxml"));
                 PrincipalController principalController = new PrincipalController();
                 loader.setController(principalController);
 

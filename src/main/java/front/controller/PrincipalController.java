@@ -1,4 +1,4 @@
-package cl;
+package front.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
