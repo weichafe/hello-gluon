@@ -8,6 +8,7 @@ import com.gluonhq.charm.glisten.control.LifecycleEvent;
 import com.gluonhq.charm.glisten.control.TextArea;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -31,11 +32,7 @@ public class MainApp extends Application {
 
         appManager.addViewFactory(HOME_VIEW, () -> {
             try {
-                final HomePresenter homeView = new HomePresenter();
-                final View view = homeView.getHome();
-                view.addEventHandler(LifecycleEvent.SHOWING, e -> view.setMouseTransparent(true));
-                view.addEventHandler(LifecycleEvent.SHOWN, e -> view.setMouseTransparent(false));
-                return view;
+                return (View) FXMLLoader.load(getClass().getResource("/cl/controller/home.fxml"));
 
             } catch (Exception ex) {
                 StringWriter sw = new StringWriter();
