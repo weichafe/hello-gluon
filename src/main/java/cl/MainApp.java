@@ -1,4 +1,4 @@
-package cl.controller;
+package cl;
 
 
 import com.gluonhq.attach.display.DisplayService;

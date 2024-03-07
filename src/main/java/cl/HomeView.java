@@ -1,4 +1,4 @@
-package cl.controller;
+package cl;
 
 import com.gluonhq.charm.glisten.animation.FadeInLeftBigTransition;
 import com.gluonhq.charm.glisten.application.MobileApplication;
