@@ -3,6 +3,9 @@
 
 
 --module-path "E:\Repository\javafx-sdk-21.0.2\lib" --add-modules javafx.controls,javafx.fxml
+--module-path "D:\JDK\javafx-sdk-17.0.10\lib" --add-modules javafx.controls,javafx.fxml
+
+java --module-path D:\JDK\javafx-sdk-17.0.10\lib --add-modules javafx.controls,javafx.fxml -jar .\hellogluon-1.0.0-SNAPSHOT.jar
 
 This sample shows how to automatically build a Gluon Application using Github Actions.
 

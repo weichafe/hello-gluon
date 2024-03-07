@@ -1,6 +1,6 @@
-package front;
+package cl;
 
-import front.controller.PrincipalController;
+
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
@@ -36,33 +36,6 @@ public class MainApp extends Application {
             View view = null;
 
             try {
-
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/Principal.fxml"));
-                PrincipalController principalController = new PrincipalController();
-                loader.setController(principalController);
-
-                Parent root = loader.load();
-                Scene scene = new Scene(root);
-                Stage ventanaApp = new Stage();
-                ventanaApp.setResizable(true);
-                ventanaApp.setMaximized(false);
-                ventanaApp.setScene(scene);
-
-                //ventanaApp.getIcons().add(new Image(properties.getProperty("app.icon.ruta")));
-
-                ventanaApp.setOnCloseRequest(e -> {
-                    //Repository.getNettyProtobufClient().stopClient();
-                    javafx.application.Platform.exit();
-                    System.exit(0);
-                });
-
-                ventanaApp.setOnShowing(new EventHandler<WindowEvent>() {
-                    @Override
-                    public void handle(WindowEvent event) {
-                        MainApp.primaryStage.hide();
-                    }
-                });
-
 
                 view = new View(root) {
                     @Override
@@ -101,7 +74,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl/controller/Principal.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/Principal.fxml"));
             root = loader.load();
             appManager.start(stage);
         } catch (IOException e) {
