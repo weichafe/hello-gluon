@@ -9,13 +9,12 @@ import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
 import com.gluonhq.charm.glisten.visual.Swatch;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 
-public class HomePresenter implements Initializable {
+public class HomeView implements Initializable {
 
     @FXML
     private View home;

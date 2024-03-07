@@ -32,7 +32,7 @@ public class MainApp extends Application {
 
         appManager.addViewFactory(HOME_VIEW, () -> {
             try {
-                return (View) FXMLLoader.load(getClass().getResource("/cl/controller/home.fxml"));
+                return (View) FXMLLoader.load(getClass().getResource("home.fxml"));
 
             } catch (Exception ex) {
                 StringWriter sw = new StringWriter();

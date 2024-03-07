@@ -7,7 +7,7 @@
 <?import javafx.scene.control.Button?>
 <View fx:id="home" xmlns="http://javafx.com/javafx/11"
 	  xmlns:fx="http://javafx.com/fxml/1"
-	  fx:controller="cl.controller.HomePresenter">
+	  fx:controller="cl.controller.HomeView">
 	<center>
 		<StackPane>
 			<Button text="Click!" onAction="#onClick"/>
