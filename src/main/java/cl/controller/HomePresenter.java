@@ -15,19 +15,13 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 
-public class PrincipalController implements Initializable {
+public class HomePresenter implements Initializable {
 
     @FXML
     private View home;
 
-    @FXML
-    private Label text;
-
-
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
-
-
+    public void initialize(URL url, ResourceBundle rb) {
         FloatingActionButton fab = new FloatingActionButton();
         fab.setOnAction(e -> {
             System.out.println("FAB click");
@@ -49,17 +43,14 @@ public class PrincipalController implements Initializable {
                 Swatch.PURPLE.assignTo(home.getScene());
             }
         });
-
-        text.setText("dsaadsadsasddasasssss");
-
-    }
-
-    public View getHome() {
-        return home;
     }
 
     @FXML
     public void onClick() {
         System.out.println("click");
+    }
+
+    public View getHome() {
+        return home;
     }
 }

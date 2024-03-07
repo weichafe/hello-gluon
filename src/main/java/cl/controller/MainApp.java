@@ -4,15 +4,14 @@ package cl.controller;
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
+import com.gluonhq.charm.glisten.control.LifecycleEvent;
 import com.gluonhq.charm.glisten.control.TextArea;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
@@ -32,7 +31,12 @@ public class MainApp extends Application {
 
         appManager.addViewFactory(HOME_VIEW, () -> {
             try {
-                return (View)FXMLLoader.load(getClass().getResource("/cl/controller/home.fxml"));
+                final HomePresenter homeView = new HomePresenter();
+                final View view = homeView.getHome();
+                view.addEventHandler(LifecycleEvent.SHOWING, e -> view.setMouseTransparent(true));
+                view.addEventHandler(LifecycleEvent.SHOWN, e -> view.setMouseTransparent(false));
+                return view;
+
             } catch (Exception ex) {
                 StringWriter sw = new StringWriter();
                 PrintWriter pw = new PrintWriter(sw);
@@ -45,42 +49,6 @@ public class MainApp extends Application {
             }
         });
 
-
-
-
-
-        /*
-        appManager.addViewFactory(HOME_VIEW, () -> {
-
-            View view = null;
-
-            try {
-
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/home.fxml"));
-                root = loader.load();
-
-                view = new View(root) {
-                    @Override
-                    protected void updateAppBar(AppBar appBar) {
-                        appBar.setTitleText("Gluon Mobile");
-                    }
-                };
-
-                return view;
-
-            } catch (Exception e) {
-                StringWriter sw = new StringWriter();
-                PrintWriter pw = new PrintWriter(sw);
-                e.printStackTrace(pw);
-                String stackTrace = sw.toString();
-                System.out.println(stackTrace);
-                TextArea textArea = new TextArea(stackTrace);
-                textArea.setMinHeight(850);
-                return new View(textArea);
-            }
-        });
-
-         */
     }
 
 

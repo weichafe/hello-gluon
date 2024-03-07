@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1582d51a-b91e-4bb9-a5d4-2cb839d993c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/controller/HomeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellogluon.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/HomePresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/cl/controller/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,23 +256,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainApp.executor": "Debug",
-    "Application.Unnamed.executor": "Debug",
-    "Maven.hellogluon [clean].executor": "Run",
-    "Maven.hellogluon [compile].executor": "Run",
-    "Maven.hellogluon [package].executor": "Run",
-    "Maven.hellogluon [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">{ &quot;keyToString&quot;: { &quot;Application.MainApp.executor&quot;: &quot;Debug&quot;, &quot;Application.Unnamed.executor&quot;: &quot;Debug&quot;, &quot;Maven.hellogluon [clean].executor&quot;: &quot;Run&quot;, &quot;Maven.hellogluon [compile].executor&quot;: &quot;Run&quot;, &quot;Maven.hellogluon [package].executor&quot;: &quot;Run&quot;, &quot;Maven.hellogluon [validate].executor&quot;: &quot;Run&quot;, &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;, &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;, &quot;kotlin-language-version-configured&quot;: &quot;true&quot; } }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Research\hello-gluon\src\main\resources\cl.controller" />
       <recent name="D:\Research\hello-gluon\src\main\java\cl\controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cl.controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -450,16 +447,5 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cl/controller/PrincipalController.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
