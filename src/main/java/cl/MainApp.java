@@ -4,8 +4,6 @@ package cl;
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
 import com.gluonhq.charm.glisten.application.AppManager;
-import com.gluonhq.charm.glisten.control.AppBar;
-import com.gluonhq.charm.glisten.control.TextArea;
 import com.gluonhq.charm.glisten.mvc.View;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,10 +11,6 @@ import javafx.geometry.Dimension2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
@@ -31,13 +25,26 @@ public class MainApp extends Application {
 
     @Override
     public void init() {
+
+        appManager.addViewFactory(HOME_VIEW, () -> {
+            try {
+                return (View)FXMLLoader.load(getClass().getResource("/cl/home.fxml"));
+            } catch (Exception ex) { }
+            return null;
+        });
+
+
+
+
+
+        /*
         appManager.addViewFactory(HOME_VIEW, () -> {
 
             View view = null;
 
             try {
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/Principal.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cl.controller/home.fxml"));
                 root = loader.load();
 
                 view = new View(root) {
@@ -60,6 +67,8 @@ public class MainApp extends Application {
                 return new View(textArea);
             }
         });
+
+         */
     }
 
 
