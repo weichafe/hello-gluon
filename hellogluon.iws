@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hellogluon.iws" beforeDir="false" afterPath="$PROJECT_DIR$/hellogluon.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellStartSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellStartSell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellSubscribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/ButtonCellSubscribe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/FooterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/FooterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/NotificationsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/SplashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/SplashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/controller/StrategiesDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/controller/StrategiesDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Footer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Notifications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Notifications.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Splash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Splash.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/StrategiesData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/StrategiesData.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/Strategy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/controller/Strategy.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="f9cf8651-1b35-499d-b340-1ff09e9123bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

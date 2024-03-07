@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <AnchorPane prefHeight="418.0" prefWidth="900.0"
-            stylesheets="@../../css/SimpleTheme.css"
+            stylesheets="@../../../resources/css/SimpleTheme.css"
             xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="cl.controller.StrategyController">
 
