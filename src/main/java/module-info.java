@@ -1,4 +1,4 @@
-module scalping {
+module test {
 
     requires javafx.controls;
     requires javafx.fxml;
