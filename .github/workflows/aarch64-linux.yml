@@ -2,7 +2,7 @@ name: Embedded - AArch64 Linux
 
 on:
   push:
-    branches: [ v1.1 ]
+    branches: [ v1.2 ]
 
 jobs:
   build:
