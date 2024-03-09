@@ -7,7 +7,6 @@ module scalping {
     requires java.datatransfer;
     requires java.desktop;
     requires com.gluonhq.attach.storage;
-    requires javafx.graphics;
     requires java.base;
     requires com.gluonhq.charm.glisten;
 
