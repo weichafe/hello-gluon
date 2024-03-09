@@ -11,8 +11,8 @@ module scalping {
     requires java.base;
     requires com.gluonhq.charm.glisten;
 
-    exports cl;
+    exports hellofx;
 
-    opens cl to javafx.fxml;
+    opens hellofx to javafx.fxml;
 
 }
