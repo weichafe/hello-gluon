@@ -11,7 +11,7 @@ module scalping {
     requires javafx.graphics;
     requires javafx.base;
 
-    opens cl.vc.arb.scalping.front.controller to javafx.fxml;
+    opens cl to javafx.fxml;
+    exports cl;
 
-    exports cl.vc.arb.scalping.front.controller;
 }

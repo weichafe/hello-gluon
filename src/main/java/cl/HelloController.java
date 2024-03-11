@@ -1,4 +1,4 @@
-package cl.vc.arb.scalping.front.controller;
+package cl;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
